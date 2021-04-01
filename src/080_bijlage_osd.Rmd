@@ -20,7 +20,10 @@ medewerkers betrokken bij verschillende stappen in de onderzoekscyclus.
 
 # Ontwerp
 
-## De vraagstelling beantwoordt een maatschappelijk relevante informatiebehoefte
+## Relevante vraag
+
+> **OSD: De vraagstelling beantwoordt een maatschappelijke en/of
+> beleidsrelevante informatiebehoefte**
 
 De vraagstelling is goed gekaderd in de wetenschappelijke en beleids- of
 praktijkcontext, en haar maatschappelijke relevantie is degelijk getoetst. De
@@ -73,7 +76,7 @@ een opdrachtgever zijn gebeurd) en de nodige contacten zijn gelegd.
     -   Aftoetsen met de opdrachtgever (kan ook INBO zelf zijn) of de concrete
         > vraagstelling een antwoord biedt op de informatiebehoefte.
 
--   Standaard rol van het MT:
+-   Standaard rol van het managementteam:
 
     -   Aftoetsen van de relevantie van de vraagstelling
 
@@ -100,7 +103,7 @@ een opdrachtgever zijn gebeurd) en de nodige contacten zijn gelegd.
 -   Standaard rol van BMK:
 
     -   Aanreiken van een mogelijke methodologie (cfr.
-        > [[leidraad]{.ul}](https://pureportal.inbo.be/portal/nl/publications/ontwerp-en-evaluatie-van-meetnetten-voor-het-milieu-en-natuurbeleid(11aa46ea-da22-4a3a-a376-08715cba92df).html)
+        > [leidraad](https://pureportal.inbo.be/portal/nl/publications/ontwerp-en-evaluatie-van-meetnetten-voor-het-milieu-en-natuurbeleid(11aa46ea-da22-4a3a-a376-08715cba92df).html)
         > voor opzetten van meetnetten)
 
     -   Optreden als klankbord voor het onderzoeksteam
@@ -113,7 +116,10 @@ een opdrachtgever zijn gebeurd) en de nodige contacten zijn gelegd.
         > informatie te kunnen beschikken (beheren en afsluiten licenties dmv
         > consortia, responsabiliseren bij aankoop en collectievorming, ...)
 
-## De outputs en wijze van communiceren zijn vooraf gedocumenteerd in een communicatieplan, gedragen door stakeholders
+## Communicatieplan
+
+**OSD: De outputs en wijze van communiceren zijn vooraf gedocumenteerd in een
+communicatieplan, gedragen door stakeholders**
 
 Er is een **output- en communicatieplan** waarin de soort output(s) en de wijze
 van communiceren vooraf wordt gepland.
@@ -154,7 +160,9 @@ van communiceren vooraf wordt gepland.
 
     -   Ondersteuning bij het uitwerken van een communicatieplan
 
-## De vraagstelling is scherp en helder geformuleerd
+## Scherpe vraagstelling
+
+> **OSD: De vraagstelling is scherp en helder geformuleerd**
 
 Vraagstelling = wat wil je precies weten? Dit gebeurt vóór het project start of
 ten laatste in de beginfase van het project.
@@ -172,7 +180,7 @@ ten laatste in de beginfase van het project.
             > m²/ha of groter dan z m²/ha.
 
     -   De gewenste informatiekwaliteit (kwantitatief) uitdrukken (zie
-        > [[leidraad]{.ul}](https://pureportal.inbo.be/portal/nl/publications/ontwerp-en-evaluatie-van-meetnetten-voor-het-milieu-en-natuurbeleid(11aa46ea-da22-4a3a-a376-08715cba92df).html)
+        > [leidraad](https://pureportal.inbo.be/portal/nl/publications/ontwerp-en-evaluatie-van-meetnetten-voor-het-milieu-en-natuurbeleid(11aa46ea-da22-4a3a-a376-08715cba92df).html)
         > voor ontwerp): minimum detecteerbaar effect met bijhorend
         > betrouwbaarheidsniveau en power van de statistische toets. Of voor
         > schattingen: de maximaal toegelaten foutmarge en het bijhorend
@@ -185,7 +193,9 @@ ten laatste in de beginfase van het project.
     -   Ondersteunen van het onderzoeksteam bij het formuleren van de vraag als
         > een statistische toets.
 
-## De onderzoeksopzet is afgestemd op de vraagstelling en gedocumenteerd
+## Opzet i.k.v. vraagstelling
+
+**OSD: De onderzoeksopzet is afgestemd op de vraagstelling en gedocumenteerd**
 
 De gegevensinzameling en de opzet van analyses worden in samenspraak met de
 relevante wetenschapsondersteunende teams uitgewerkt en zijn goed afgestemd op
@@ -206,8 +216,8 @@ de vraagstelling.
 
     -   Desgewenst een schaduwmeetnet uitwerken om een beter idee te krijgen van
         > de meetfout. Meetfouten betreffen het effect van de waarnemer, het
-        > meettoestel, het meetobject en het meetprotocol ([[Onkelinx et al.
-        > 2010]{.ul}](https://pureportal.inbo.be/portal/nl/publications/schaduwmeetnet-bosinventarisatie(c9b2e18f-82ca-4b08-8b88-7ee306f3a994).html))
+        > meettoestel, het meetobject en het meetprotocol ([Onkelinx et al.
+        > 2010](https://pureportal.inbo.be/portal/nl/publications/schaduwmeetnet-bosinventarisatie(c9b2e18f-82ca-4b08-8b88-7ee306f3a994).html))
 
     -   Protocollen selecteren of opstellen (voor meer detail: zie OSD i.v.m.
         > protocollen)
@@ -276,7 +286,10 @@ de vraagstelling.
     -   Ondersteuning bieden en/of kennisuitwisseling stimuleren rond validatie
         > in het veld en automatische data-captatie
 
-## De onderzoeksopzet is afgestemd op de weer te geven onderzoeksresultaten
+## Opzet i.k.v. outputs
+
+**OSD: De onderzoeksopzet is afgestemd op de weer te geven
+onderzoeksresultaten**
 
 -   Standaard rol van onderzoeksteam:
 
@@ -295,14 +308,17 @@ de vraagstelling.
 -   Standaard rol BMK:
 
     -   Ondersteuning bij het toepassen van de
-        > [[leidraad]{.ul}](https://pureportal.inbo.be/portal/nl/publications/ontwerp-en-evaluatie-van-meetnetten-voor-het-milieu-en-natuurbeleid(11aa46ea-da22-4a3a-a376-08715cba92df).html)
+        > [leidraad](https://pureportal.inbo.be/portal/nl/publications/ontwerp-en-evaluatie-van-meetnetten-voor-het-milieu-en-natuurbeleid(11aa46ea-da22-4a3a-a376-08715cba92df).html)
         > voor ontwerp
 
     -   Klankbordfunctie
 
     -   Advies over verwerkingsketens
 
-## De verschillende datastappen in de onderzoekscyclus zijn gedocumenteerd in een Data Management Plan
+## DMP
+
+**OSD: De verschillende datastappen in de onderzoekscyclus zijn gedocumenteerd
+in een Data Management Plan**
 
 De dataketen is beknopt beschreven in een data management plan (DMP).
 
@@ -317,7 +333,7 @@ De dataketen is beknopt beschreven in een data management plan (DMP).
     -   De nood overwegen aan dataversionering en het traceren van datastromen
         > in het datamodel
 
-    -   De [[FAIR]{.ul}](https://www.go-fair.org/fair-principles/) principes
+    -   De [FAIR](https://www.go-fair.org/fair-principles/) principes
         > (Findable, Accessible, Interoperable, Re-usable) nastreven
 
     -   De afweging maken om de data als open data te publiceren en de
@@ -333,7 +349,7 @@ De dataketen is beknopt beschreven in een data management plan (DMP).
     -   Het opmaken van DMP's promoten
 
     -   Aanbieden en ondersteunen van het gebruik van het
-        > [[DMPOnline.be]{.ul}](https://dmponline.be/) platform voor het
+        > [DMPOnline.be](https://dmponline.be/) platform voor het
         > uitwerken en delen van DMP's.
 
     -   Advies verlenen en verwijzen naar referentiemateriaal en richtlijnen
@@ -348,13 +364,22 @@ De dataketen is beknopt beschreven in een data management plan (DMP).
     -   Aanbevelingen aanreiken voor de organisatie van projectmappen (cfr.
         > cookiecutter-data-science)
 
+    -   Actief opvolgen van de opmaak DMP's voor projecten gefinancierd met
+        > Vlaamse middelen in het kader van de FOSB streefdoelen. Communiceren
+        > van richtlijnen omtrent DMP's vanuit de FOSB.
+
+    -   Publiceren van afgewerkt DMP (pdf) in CRIS-systeem (Current Research
+        > Information System e.g. PURE)
+
 -   Standaard rol van BMK:
 
     -   Advies over de bruikbaarheid van het dataformaat voor de analyse.
 
     -   Advies over de ontsluiting van de analyseresultaten.
 
-## Revisiestadia zijn voorzien (langlopende cases)
+## Revisiestadia
+
+> **OSD: Revisiestadia zijn voorzien (langlopende cases)**
 
 -   Standaard rol van onderzoeksteam:
 
@@ -384,7 +409,9 @@ De dataketen is beknopt beschreven in een data management plan (DMP).
 
 # Gegevensinzameling
 
-## De gegevensinzameling verloopt volgens protocollen
+## Protocollen gebruiken
+
+> **OSD: De gegevensinzameling verloopt volgens protocollen**
 
 De gegevensinzameling volgt zoveel mogelijk bestaande, op INBO overeengekomen
 standaardmethoden, bv. voor terreinwerk, laboratoriumactiviteiten, enquêtering,
@@ -447,7 +474,9 @@ standaardmethoden, bv. voor terreinwerk, laboratoriumactiviteiten, enquêtering,
         > gegevensinvoer en advisering rond mogelijke opties bij vragen naar
         > dergelijke tools.
 
-## Automatische datainzameling wordt ingezet
+## Automatische data-inzameling
+
+> **OSD: Automatische datainzameling wordt ingezet**
 
 -   Standaard rol van onderzoeksteam:
 
@@ -458,7 +487,9 @@ standaardmethoden, bv. voor terreinwerk, laboratoriumactiviteiten, enquêtering,
     -   Ondersteuning bieden bij technische aspecten m.b.t. automatische
         > datainzameling, bvb. het configureren van communicatie tussen sensoren
 
-## Bestaande, bruikbare data (desgevallend monsters) worden benut
+## Bestaande data gebruiken
+
+> **OSD: Bestaande, bruikbare data (desgevallend monsters) worden benut**
 
 Er wordt goed overwogen of reeds eerder ingezamelde datasets benut kunnen worden
 (hergebruik van data). Er wordt overwogen of monsters uit het bodemarchief
@@ -485,7 +516,9 @@ bruikbaar zijn voor heranalyse.
         > datasystemen door te verwijzen naar bestaande documentatie of het
         > bieden van ad-hoc ondersteuning.
 
-## Validatieprocedures tijdens gegevensinzameling worden toegepast
+## Valideren tijdens datainzameling
+
+> **OSD: Validatieprocedures tijdens gegevensinzameling worden toegepast**
 
 -   Standaard rol van onderzoeksteam:
 
@@ -497,7 +530,9 @@ bruikbaar zijn voor heranalyse.
     -   Ondersteuning bieden en/of kennisuitwisseling stimuleren rond validatie
         > in het veld en automatische data-captatie
 
-## Bij de gegevensinzameling is de meetfout gekend
+## Meetfout kennen
+
+> **OSD: Bij de gegevensinzameling is de meetfout gekend**
 
 Er wordt bewust omgegaan met aspecten van meetonzekerheid.
 
@@ -533,7 +568,9 @@ Er wordt bewust omgegaan met aspecten van meetonzekerheid.
 
 # Opslag van data
 
-## De data zijn op een degelijke manier opgeslagen
+## Gepaste data-opslag
+
+> **OSD: De data zijn op een degelijke manier opgeslagen**
 
 Er is aandacht voor de methoden van data-opslag en voor de metadatering hiervan.
 De methode van data-opslag is afgestemd op de grootte van de dataset.
@@ -596,7 +633,9 @@ De methode van data-opslag is afgestemd op de grootte van de dataset.
 
 # Voorbewerking van data
 
-## De data worden op een herhaalbare manier gevalideerd
+## Data valideren
+
+> **OSD: De data worden op een herhaalbare manier gevalideerd**
 
 Er wordt datavalidatie uitgevoerd, de werkwijze wordt gedocumenteerd en is
 (liefst) reproduceerbaar.
@@ -658,7 +697,9 @@ Er wordt datavalidatie uitgevoerd, de werkwijze wordt gedocumenteerd en is
         > meetonzekerheid bij het volledig proces voor verzamelen van
         > veldgegevens.
 
-## De voorbewerking van data gebeurt reproduceerbaar
+## Reproduceerbaar voorbewerken
+
+> **OSD: De voorbewerking van data gebeurt reproduceerbaar**
 
 De stappen om van ruwe data naar analyseerbare data te gaan, zijn goed
 gedocumenteerd en reproduceerbaar: bv. SQL-script, R-script, rapport met
@@ -682,7 +723,9 @@ gegevensbewerking in Rmarkdown formaat, \...
 
 # Analyse
 
-## Er gebeurt een degelijke data-exploratie
+## Data exploreren
+
+> **OSD: Er gebeurt een degelijke data-exploratie**
 
 De onderzoeker voert een adequate en reproduceerbare data-exploratie uit in
 functie van de analyse.
@@ -696,7 +739,9 @@ functie van de analyse.
 
     -   Opleiding voorzien rond data-exploratie
 
-## De analyse is adequaat en correct
+## Gepast analyseren
+
+> **OSD: De analyse is adequaat en correct**
 
 De analyse is adequaat voor de doelstelling en gebeurt correct.
 
@@ -708,8 +753,8 @@ De analyse is adequaat voor de doelstelling en gebeurt correct.
 
     -   Organiseren van validatie (peer review) van de analyse (bvb. door te
         > werken met pull-requests in GitHub waarbij persoon die niet
-        > rechtstreeks betrokken is bij de analyse gevraagd wordt om de code na
-        > te kijken)
+        > rechtstreeks betrokken is bij de analyse gevraagd wordt om de broncode
+        > na te kijken)
 
 -   Standaard rol van BMK:
 
@@ -732,7 +777,9 @@ De analyse is adequaat voor de doelstelling en gebeurt correct.
     -   Kwaliteitscontrole van geospatiale resultaatbestanden: controle op
         > topologie, "data coherentie",\...
 
-## De analyseworkflow is open en reproduceerbaar 
+## Reproduceerbaar analyseren
+
+> **OSD: De analyseworkflow is open en reproduceerbaar**
 
 De workflow voor de analyse is open en reproduceerbaar: bv. rapport met analyse
 in Rmarkdown-formaat.
@@ -755,7 +802,9 @@ in Rmarkdown-formaat.
         > analyse-omgeving (package-versies, R-versie, versies van back-end
         > libraries en besturingssysteem).
 
-## Versies van de gebruikte data en van de analyse worden bijgehouden
+## Versiebeheer
+
+> **OSD: Versies van de gebruikte data, broncode en analyse worden bijgehouden**
 
 Bij elke publicatie wordt verwezen naar een specifieke versie van de data en de
 analysestappen om de resultaten te reproduceren. Deze versies worden
@@ -788,12 +837,14 @@ gearchiveerd zodat we er op een later tijdstip naar kunnen teruggrijpen.
 
     -   Voorzien van opleiding en ondersteuning voor het reproduceren van de
         > gebruikte ruwe data of analysedata, voor de gevallen waar de data niet
-        > mee opgenomen zijn bij het versiebeheer van de code (bv. Zenodo,
+        > mee opgenomen zijn bij het versiebeheer van de broncode (bv. Zenodo,
         > databanken).
 
 # Publicatie & delen
 
-## De resultaten worden in de gepaste context geïnterpreteerd
+## Gepast intepreteren
+
+> **OSD: De resultaten worden in de gepaste context geïnterpreteerd**
 
 In een publicatie worden de resultaten besproken in de context van de
 *vraagstelling* en in de context van de *bestaande, relevante wetenschappelijke
@@ -816,7 +867,9 @@ informatie*.
     -   Ondersteuning bij gebruik bibliotheekdatabanken en
         > referentiebeheersystemen (Endnote, Zotero, ...)
 
-## De data zijn open
+## Open data
+
+> **OSD: De data zijn open**
 
 Gegevens worden, in principe, publiek beschikbaar (open data).
 
@@ -824,19 +877,26 @@ Gegevens worden, in principe, publiek beschikbaar (open data).
 
     -   Het onderzoeksteam maakt een afweging i.v.m. het publiceren van de data,
         > waarbij zoals aangegeven in het
-        > [[Opendatabeleid]{.ul}](https://www.inbo.be/nl/opendatabeleid) het
+        > [Opendatabeleid](https://www.inbo.be/nl/opendatabeleid) het
         > publiceren als Open Data het standaard uitgangspunt is. Deze afweging
         > wordt publiek gemaakt. Tulloch et al (2018)
-        > [[https://doi.org/10.1038/s41559-018-0608-1]{.ul}](https://doi.org/10.1038/s41559-018-0608-1)
+        > [https://doi.org/10.1038/s41559-018-0608-1](https://doi.org/10.1038/s41559-018-0608-1)
         > is hierbij een bruikbaar afwegingskader.
 
     -   Het onderzoeksteam zorgt voor de publicatie van de data.
 
 -   Standaard rol van OSCIBIO:
 
-    -   Technisch advies over keuze van dataformaat, documentatie en platform
-        > voor publiek beschikbaar stellen van data. Voor data-publicatie naar
-        > GBIF biedt dit team ook ondersteuning.
+    -   Technisch advies over keuze van dataformaat, metadata en een geschikt
+        > platform voor het publiek stellen van onderzoeksdata. Voor
+        > data-publicatie naar GBIF biedt dit team ook ondersteuning.
+
+    -   Actief opvolgen van de publicatie van data in het algemeen. Voor de
+        > opvolging vanuit de FOSB wordt specifiek de nadruk gelegd op data
+        > geassocieerd met wetenschappelijke artikels die voortvloeien uit
+        > projecten gefinancierd met Vlaamse middelen, maar het INBO streeft
+        > aanvullend naar het open mobiliseren van onderzoeksdata in het
+        > algemeen.
 
 -   Standaard rol van Databeheer:
 
@@ -860,11 +920,14 @@ Gegevens worden, in principe, publiek beschikbaar (open data).
     -   Centraal aanbieden van open data (metadata) via CRIS-systeem (Current
         > Research Information System e.g. PURE)
 
-## De FAIR principes (Findable, Accessible, Interoperable, Re-usable) worden toegepast
+## FAIR principes
+
+> **OSD: De FAIR principes (Findable, Accessible, Interoperable, Re-usable)
+> worden toegepast**
 
 Deze OSD is complementair met voorgaande "De data zijn open" en beide worden
-vaak samen toegepast. De FAIR-principes vormen een [[set van
-richtlijnen]{.ul}](https://www.go-fair.org/fair-principles/) die ook toegepast
+vaak samen toegepast. De FAIR-principes vormen een [set van
+richtlijnen](https://www.go-fair.org/fair-principles/) die ook toegepast
 kunnen worden voor gegevens die niet volledig publiek toegankelijk zijn.
 
 -   Standaard rol van onderzoeksteam:
@@ -879,7 +942,11 @@ kunnen worden voor gegevens die niet volledig publiek toegankelijk zijn.
     -   Zorgen voor vlotte toegankelijkheid en vindbaarheid door het opstellen
         > van een overzicht van beschikbare datasets en data
 
-## De broncode is open
+    -   Opvolgen van de ontwikkeling van het FOSB streefdoel rond FAIR data
+
+## Open broncode
+
+> **OSD: De broncode is open**
 
 Broncode wordt, in principe, publiek beschikbaar (open source).
 
@@ -887,8 +954,8 @@ Broncode wordt, in principe, publiek beschikbaar (open source).
 
     -   De finale versies van de scripts en documentatie worden in principe
         > publiek gemaakt onder een open licentie zodat deze ook hergebruikt
-        > kunnen worden door derden ([[https://opensource.org/licenses,
-        > https://choosealicense.com/]{.ul}](https://opensource.org/licenses)).
+        > kunnen worden door derden ([https://opensource.org/licenses,
+        > https://choosealicense.com/](https://opensource.org/licenses)).
 
     -   Bereidheid tot gebruik van GitHub.
 
@@ -901,7 +968,9 @@ Broncode wordt, in principe, publiek beschikbaar (open source).
     -   Beheren van richtlijnen voor het beschikbaar maken van broncode (o.a.
         > licensing)
 
-## De protocollen zijn open
+## Open protocollen
+
+> **OSD: De protocollen zijn open**
 
 Protocollen (veldprotocollen, laboprotocollen, ...) worden publiek beschikbaar
 (open protocols).
@@ -924,16 +993,20 @@ Protocollen (veldprotocollen, laboprotocollen, ...) worden publiek beschikbaar
 
     -   Aanleveren van de protocols in een open formaat
 
-## De publicaties zijn open
+## Open publicaties
 
-De publicaties worden volgens het INBO [[open access
-beleid]{.ul}](https://www.inbo.be/nl/openaccess-beleid) publiek beschikbaar
+> **OSD: De publicaties zijn open**
+
+De publicaties worden volgens het INBO [open access
+beleid](https://www.inbo.be/nl/openaccess-beleid) publiek beschikbaar
 gesteld.
 
 -   Standaard rol van onderzoeksteam:
 
     -   Ter beschikking stellen van publicaties aan team Bibliotheek en
-        > Informatiebeer of zelf invoeren in CRIS-systeem
+        > Informatiebeer of zelf invoeren in CRIS-systeem (Current Research
+        > Information System e.g.
+        > [PURE](https://www.elsevier.com/solutions/pure))
 
 -   Standaard rol van Bibliotheek en Informatiebeheer:
 
@@ -958,18 +1031,38 @@ gesteld.
         > gebruikers populaire onderzoeksinformatiesystemen (citatieanalyse,
         > altmetrics, fingerprinting, ...)
 
-## Er wordt in de publicaties naar de verschillende outputs gerefereerd (via een digital object identifier of kortweg DOI)
+    -   Stimuleren van publicatie in Open Access journals (green of gold) in
+        > samenwerking met de FOSB data steward, stimuleren van het publiceren
+        > in non-hybride journals
 
-DOI, of de Digital Object Identifier, is een systeem voor het identificeren van
-content in een digitale omgeving. Digitale documenten of objecten kunnen in de
-loop van de tijd veranderen van inhoud of van plaats. Omdat de DOI-naam
-ongewijzigd blijft kan een object blijvend geïdentificeerd worden.
+## Outputs citeren
+
+**OSD: Er wordt in de publicaties naar de verschillende outputs gerefereerd**
+
+DOI, of de Digital Object Identifier
+([https://www.doi.org](https://www.doi.org)), is een systeem voor het
+identificeren van content in een digitale omgeving. Digitale documenten of
+objecten kunnen in de loop van de tijd veranderen van inhoud of van plaats.
+Omdat de DOI-naam ongewijzigd blijft kan een object blijvend geïdentificeerd
+worden.
+
+Een ORCID iD ([https://orcid.org](https://orcid.org)) is een unieke,
+persistente identifier voor onderzoekers. Ze laat toe om onderzoekers eenduidig
+te identificeren over aanstellingen en instellingen heen, en om de diverse
+vormen van output (publicaties, peer reviews, datasets) aan de onderzoeker te
+linken.
 
 -   Standaard rol van onderzoeksteam:
 
     -   Waar relevant de referenties (met DOI) van verschillende gerelateerde
-        > outputs zoals dataset, data paper, gepubliceerd protocol, broncode (op
-        > Zenodo) opnemen
+        > outputs zoals dataset, data paper, projecten, gepubliceerd protocol,
+        > broncode (op Zenodo) opnemen
+
+    -   Aanmaken van ORCID iD en deze opnemen in CRIS-systeem (Current Research
+        > Information System e.g.
+        > [PURE](https://www.elsevier.com/solutions/pure))
+
+    -   Opnemen van ORCID iD in publicaties
 
 -   Standaard rol Bibliotheek en Informatiebeheer:
 
@@ -977,9 +1070,11 @@ ongewijzigd blijft kan een object blijvend geïdentificeerd worden.
         > \...) voorzien van een DOI
 
     -   Bewaken dat DOIs van outputs mee opgenomen worden in PURE en relevante
-        > links gelegd worden in PURE.
+        > links en relaties gelegd worden in PURE.
 
-## De publicaties worden kwaliteitsvol vormgegeven
+## Kwalitatieve vormgeving
+
+> **OSD: De publicaties worden kwaliteitsvol vormgegeven**
 
 De outputs worden conform de huisstijl, op een aantrekkelijke wijze gelay-out en
 vormgegeven.
@@ -1018,10 +1113,13 @@ vormgegeven.
 -   Standaard rol van Bibliotheek & Informatiebeheer + BMK
 
     -   Onderhoud van de INBO-citatiestijlbestanden (o.a. het
-        > [[gedeponeerde]{.ul}](https://github.com/citation-style-language/styles/blob/master/research-institute-for-nature-and-forest.csl)
+        > [gedeponeerde](https://github.com/citation-style-language/styles/blob/master/research-institute-for-nature-and-forest.csl)
         > stijlbestand research-institute-for-nature-and-forest.csl)
 
-## Er wordt over de outputs en daarbij gebruikte (Open Science) methodieken gecommuniceerd
+## Methoden communiceren
+
+**OSD: Er wordt over de outputs en daarbij gebruikte (Open Science) methoden
+gecommuniceerd**
 
 -   Standaard rol van onderzoeksteam:
 
@@ -1034,15 +1132,18 @@ vormgegeven.
 
 # Archivering
 
-## Alle afgewerkte en gebruikte documenten worden duurzaam bewaard en efficiënt ontsloten
+## Documenten archiveren
+
+**OSD: Alle afgewerkte en gebruikte documenten worden duurzaam bewaard en
+efficiënt ontsloten**
 
 Er gebeurt een geïntegreerd archiefbeheer op basis van een
 Informatiebeheersplan. Alle archiefdocumenten worden duurzaam bewaard, efficiënt
 ontsloten en ter beschikking gesteld conform het archiefdecreet van 9 juli 2010
 en andere wettelijke bepalingen. Bijkomend wordt ook een op lange termijn
-betrouwbare en doorzoekbare archivering van de data, stalen, protocollen en code
-toegepast (Zenodo, Open Science Framework (OSF), PURE, etc.), conform het nog
-verder uit te werken INBO-beleid rond archivering (van zowel analoog als
+betrouwbare en doorzoekbare archivering van de data, stalen, protocollen en
+broncode toegepast (Zenodo, Open Science Framework (OSF), PURE, etc.), conform
+het nog verder uit te werken INBO-beleid rond archivering (van zowel analoog als
 digitaal materiaal).
 
 -   Standaard rol van onderzoeksteam:
@@ -1064,7 +1165,9 @@ digitaal materiaal).
 
     -   Duurzaam archiveren (en ontsluiten) van onderzoeksarchieven
 
-## Data worden gearchiveerd
+## Data archiveren
+
+> **OSD: Data worden gearchiveerd**
 
 -   Standaard rol van onderzoeksteam:
 
@@ -1079,7 +1182,9 @@ digitaal materiaal).
 
     -   Voorzien van duurzame opslag en digitale bewaring van informatie
 
-## Stalen worden gearchiveerd
+## Stalen archiveren
+
+> **OSD: Stalen worden gearchiveerd**
 
 -   Standaard rol van onderzoeksteam:
 
@@ -1096,7 +1201,9 @@ digitaal materiaal).
     -   Verkennen van mogelijke samenwerking met externe partners voor het
         > kwaliteitsvol archiveren van stalen
 
-## Protocollen worden gearchiveerd
+## Protocollen archiveren
+
+> **OSD: Protocollen worden gearchiveerd**
 
 -   Standaard rol van onderzoeksteam:
 
@@ -1107,22 +1214,26 @@ digitaal materiaal).
     -   Verkennen van mogelijkheden en opstellen van richtlijnen voor
         > archivering van protocollen
 
-## Code wordt gearchiveerd
+## Broncode archiveren
+
+> **OSD: Broncode wordt gearchiveerd**
 
 -   Standaard rol van onderzoeksteam:
 
-    -   Toepassen van richtlijnen rond archivering van code
+    -   Toepassen van richtlijnen rond archivering van broncode
 
 -   Standaard rol van wetenschapsondersteunende teams:
 
     -   Verkennen van mogelijkheden en opstellen van richtlijnen voor
-        > archivering van code
+        > archivering van broncode
 
 # Hergebruik stimuleren
 
-## Intern en extern hergebruik krijgt alle kansen
+## Hergebruik stimuleren
 
-Er wordt een inspanning geleverd om gebruikte systemen, data, code en
+> **OSD: Intern en extern hergebruik krijgt alle kansen**
+
+Er wordt een inspanning geleverd om gebruikte systemen, data, broncode en
 documentatie (o.a. protocollen) zo goed mogelijk te laten renderen voor het INBO
 en extern:
 
@@ -1136,8 +1247,8 @@ en extern:
 
 -   Standaard rol van onderzoeksteam:
 
-    -   Onderzoeken welke data / code reeds beschikbaar is vooraleer zelf nieuwe
-        > dingen in te zamelen of te ontwikkelen.
+    -   Onderzoeken welke data / broncode reeds beschikbaar is vooraleer zelf
+        > nieuwe dingen in te zamelen of te ontwikkelen.
 
     -   Alles wat gepubliceerd wordt van de nodige metadata en documentatie
         > voorzien opdat het voor anderen makkelijker te vinden is.
