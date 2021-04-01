@@ -1,0 +1,138 @@
+# Dankwoord {-}
+
+We zijn de volgende collega's zeer dankbaar voor hun betrokkenheid bij de
+organisatie van het 'Open Science Doelen' (OSD) traject. Velen van hen namen
+deel aan OSD-workshops of droegen bij via discussies (alfabetisch op voornaam):
+An Leyssen, Arno Thomaes, Bert Huygens, Damiano Oldoni, Dimitri Brosens, Dirk
+Maes, Els Lommelen, Frederic Piesschaert, Hans Van Calster, Ine Pauwels, Ilse
+Simoens, Jan Breine, Jeroen Vanden Borre, Jim Casaer, Joost Vanoverbeke, Julie
+Callebaut, Karen Cox, Marijke Thoonen, Merlijn Jocqué, Nathalie Cools, Nicolas
+Vanermen, Patrik Oosterlynck, Peter Van Gossum, Raïsa Carmen, Sandra Van
+Waeyenberge, Tanja Milotic, Tim Adriaens, Tom De Dobbelaer.
+
+We zijn het managementteam van het INBO zeer erkentelijk om het Open Science
+Programma ten volle te ondersteunen en te stimuleren. We bedanken in het
+bijzonder Johan Peymen, Marc Pollet en Maurice Hoffmann. Johan en Marc zijn ook
+actief betrokken bij het OSD-traject.
+
+Hans Van Calster, Peter Van Gossum, Johan Peymen, Koen Van Muylem, Merlijn
+Jocqué en Joost Vanoverbeke suggereerden verbeteringen in dit rapport. Hartelijk
+dank!
+
+Last but not least, willen we uitdrukkelijk de vele collega's (en ex-collega's)
+bedanken die reeds in het verleden de schouders zetten onder Open Science op
+INBO: door zich nieuwe methoden eigen te maken, of door anderen hiermee te
+helpen. Doe zo verder en blijf anderen inspireren!
+
+# Samenvatting {-}
+
+Open Science wordt steeds meer de **voorkeursbenadering** voor wetenschappelijk
+onderzoek. Open Science leidt tot kwaliteitsvol en transparant onderzoek en
+verhoogt op die manier de betrouwbaarheid. Het biedt ook de beste kansen tot
+samenwerking. De Open Science benadering is daarmee het onderzoeksmodel dat het
+beste past bij een dienstverlenende overheid.
+
+Met 'Open Science' verwijzen we naar de methoden van **open en reproduceerbaar
+onderzoek**. Deze benadering krijgt sinds lang aandacht op INBO, maar via het
+'Open Science programma' gebeurt dit nu meer **geïntegreerd voor de gehele
+onderzoekscyclus.**
+
+Met dit rapport willen we onderzoekers op het INBO en daarbuiten:
+
+-   concrete aanknopingspunten bieden om aan de slag te gaan met de Open Science
+    methoden in alle stappen van het onderzoek;
+-   inspireren om in te zetten op de kwaliteit en transparantie van hun
+    onderzoek.
+
+Concreet sommen we de **INBO Open Science Doelen voor projecten** op: in
+paragraaf \@ref(overzicht) en uitgewerkt in bijlage \@ref(app:osd-uitgewerkt). Ze zijn het ideaalbeeld van hoe we in
+elke fase van de onderzoekscyclus te werk willen gaan. De doelstellingen zijn
+**bottom-up** gegroeid vanuit de organisatie. Voor het Open Science traject op
+INBO kiezen we voor een uitnodigende, stimulerende sfeer, met een geleidelijke
+maar gestage vooruitgang. We moedigen iedereen aan om te leren met vallen en
+opstaan, en om kennis en vaardigheden uit te dragen naar anderen. Hierbij zullen
+niet alle doelen in gelijke mate of snelheid geïmplementeerd worden: ze zijn
+veeleer een houvast.
+
+Op een hoger niveau stimuleert ook de **Flemish Open Science Board (FOSB)** de
+Vlaamse onderzoeksinstellingen om in toenemende mate Open Science toe te passen.
+De FOSB stelde **data stewards** aan om de ideeën van Open Science verder uit te
+dragen in de Vlaamse Wetenschappelijke Instellingen, waaronder het INBO. Binnen
+INBO staat de data steward mee in voor de coördinatie van de Open Science
+Doelen. De FOSB schuift de komende jaren vijf streefdoelen naar voor: ORCID
+iD's, Data Management Plannen, FAIR data, open access en open data.
+
+# Aanbevelingen voor het beleid {-}
+
+Open Science, waarmee we verwijzen naar de methodologie voor **open en
+reproduceerbaar onderzoek**, is dé manier om te komen tot een *kwaliteitsvol* en
+*transparant* resultaat. Het verleent een onderzoeksinstelling een grotere
+betrouwbaarheid, effectiviteit en efficiëntie en leidt tot meer mogelijkheden
+voor samenwerking. De Open Science benadering is daarmee het onderzoeksmodel dat
+het beste past bij een dienstverlenende overheid.
+
+We geven volgende aanbevelingen voor (publieke) organisaties waar onderzoek
+plaatsvindt.
+
+-   Wie betrokken is bij onderzoek: **pas Open Science toe in je project**.
+    -   Omdat het je onderzoek kwaliteitsvoller maakt, is het in elk
+        onderzoeksproces een must om rekening te houden met Open Science en
+        dit in de hele onderzoekscyclus. Vanaf de conceptualisering van het
+        onderzoek, over de data-inzameling en -analyse tot en met de
+        publicatie, archivering en het stimuleren van hergebruik.
+-   Procesbeheerder: **zoek naar een optimaal, gedragen traject op
+    organisatieniveau**.
+    -   Maak gebruik van de talenten en gedrevenheid van de medewerkers en zet
+        eerst in op de aspecten waarvoor ze het meest gemotiveerd zijn. Dit
+        biedt meer kans op succes.
+    -   Wees uitnodigend en stimulerend. Moedig spontane initiatieven aan,
+        idealiter team- of organisatie-overschrijdend. Het kan zowel gaan om
+        het zelf aanleren en implementeren van een nieuwe aanpak, als om het
+        uitdragen ervan (demo's, workshop, opleiding, begeleiding, \...).
+    -   Belangrijk is het lange-termijnaspect: mensen kunnen niet alles tegelijk
+        leren. Er moet wel recurrent en substantieel aan gewerkt worden:
+        levenslang leren en voortdurend verbeteren zijn hierin belangrijk.
+-   Iedereen: **inspireer je**.
+    -   Dit rapport en de verschillende literatuurreferenties bieden meer
+        inzicht in de verschillende facetten van open en reproduceerbaar
+        onderzoek. In dit rapport gebeurt dit door de oplijsting van onze Open
+        Science Doelen (OSD's) voor projecten. Deze geven een ideaalbeeld van
+        *hoe* we onderzoek willen uitvoeren. We hopen dat deze OSD's ook
+        andere organisaties kunnen inspireren.
+
+# English abstract {-}
+
+Open Science is **increasingly preferred** in scientific research. It results in
+high-quality and transparent research, paving the way to increased
+trustworthiness. Furthermore, Open Science provides the best potential for
+collaboration. These properties make it the most suitable research approach for
+public authorities.
+
+By 'Open Science' we mean methods of **open and reproducible research**. At the
+Research Institute for Nature and Forest (INBO), the Open Science approach
+historically received much attention already. Through the INBO 'Open Science
+programme' it gets even more **aligned with the whole research cycle**.
+
+With this report we want to reach scientists within and outside INBO and:
+
+-   offer tangible leads to engage with Open Science methods in every research
+    step;
+-   inspire to invest more in research quality and transparency.
+
+More specifically, we list the **INBO Open Science Goals for projects**: in
+paragraph \@ref(overzicht) and elaborated in appendix \@ref(app:osd-uitgewerkt). They are the idealized picture of
+how we want to proceed in every stage of the research cycle. The goals have
+arisen as a **bottom-up** process throughout the organization. We want to create
+a welcoming and stimulating environment, and establish gradual and long-lasting
+progress. We encourage everyone to learn by trial and error, and to disseminate
+knowledge and skills to others. In doing so, not all goals will be implemented
+at the same speed or extent: they rather serve as a roadmap.
+
+At a higher level the **Flemish Open Science Board (FOSB)** encourages Flemish
+research organizations to increasingly apply Open Science. The FOSB appointed
+**data stewards** to accelerate the Open Science ideas in the Flemish Scientific
+Institutes, among which INBO. At INBO the data steward helps in coordinating the
+Open Science Goals. The FOSB has put forward five objectives: ORCID iDs, Data
+Management Plans, FAIR data, open access and open data.
+
+

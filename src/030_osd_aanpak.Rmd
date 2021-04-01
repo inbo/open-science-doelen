@@ -1,0 +1,100 @@
+# De Open Science Doelen voor projecten op het INBO {#osd}
+
+## Aanpak
+
+Verschillende complementaire werkwijzen werden gehanteerd om in de periode
+**2019-2020** het Open Science programma als **een geïntegreerd proces** op te
+starten en zichtbaar te maken binnen INBO:
+
+-   meerdere **workshops** met alle INBO-teams, die elk minstens één
+    aanspreekpunt afvaardigen, om:
+    1. uit te wisselen over het doel van het Open Science programma;
+    2. geleidelijk te komen tot een geheel van **Open Science Doelen (OSD's)
+    voor projecten**, gedragen door de INBO-teams;
+    3. de voorkeuren en prioriteiten van de teams kenbaar te maken: op welke
+    OSD wil elk team eerst inzetten en voor welke OSD's wil elk team
+    prioritair ondersteuning?
+-   een **INBO Open Science Nieuwsbrief** die naar alle personeelsleden wordt
+    verstuurd, met als subtitel: '*Informeer en help je collega's rond open
+    onderzoek & open methoden!*' Via de nieuwsbrief worden tips, nieuwe
+    ontwikkelingen en aankondigingen gedeeld. Iedereen kan bijdragen;
+-   oproepen om in de **jaarplanning** per team tijd te voorzien om te werken
+    aan hun prioritaire OSD's;
+-   een **referentiedocument**, in dit stadium verder uitgewerkt tot dit
+    rapport, dat de rol van het referentiedocument voortaan overneemt. Het
+    document bevat:
+    -   de rationale van de OSD's: zie bijlage \@ref(app:reftekst);
+    -   een overzicht van de OSD's: zie paragraaf \@ref(overzicht);
+    -   de omschrijving van elke OSD: zie bijlage \@ref(app:osd-uitgewerkt);
+-   een trio van **coördinatoren** uit de teams Databeheer, BMK en OSCIBIO doet
+    de globale opvolging en communicatie, in nauwe onderlinge afstemming.
+    **Centraal in het proces opereert een interdisciplinaire trekkersgroep**
+    waarin alle methodologische teams (zie \@ref(voorgeschiedenis)) actief samenwerken, meedenken
+    en onderling taken verdelen om het proces naar een volgend niveau te
+    brengen. De trekkersgroep zit geregeld samen om elkaar te informeren en om
+    te brainstormen over de volgende stappen.
+
+Verder is het team OSCIBIO vertegenwoordigd in verschillende technische
+werkgroepen van de Flemish Open Science Board (FOSB), om zo de
+(data)vertegenwoordiging van het INBO en de **samenwerking tussen de VWI's** te
+behartigen.
+
+-   De focus van de FOSB ligt de eerste jaren op vijf concrete streefdoelen
+    (KPI's), namelijk: ORCID iD's, datamanagementplannen, FAIR data, open
+    access en open data. Meer uitleg hierover lees je in paragraaf \@ref(fosb).
+-   Sinds **2021** is er op het INBO één data steward aangesteld voor de FOSB
+    (team OSCIBIO). Ze vervult deze rol voor zowel het INBO als het
+    Waterbouwkundig Labo. Vanuit haar rol voor FOSB is zij medecoördinator
+    geworden van het programma.
+-   Sinds eind 2020 brengen de VWI's een **gezamenlijke Open Science
+    nieuwsbrief** uit. Het INBO maakt hiervoor onder meer gebruik van
+    bijdragen uit de eigen INBO Open Science nieuwsbrief.
+
+In **bijlage \@ref(app:reftekst)** hernemen we de tekst die voorheen als apart
+**referentiedocument** met alle INBO-medewerkers werd gedeeld. Het vat samen hoe
+we binnen INBO aan de slag gaan met Open Science.
+
+### De streefdoelen (KPI's) van de Flemish Open Science Board (FOSB) {#fosb}
+
+Door de FOSB werden vijf concrete KPI's uitgewerkt [VR 2020 0412 MED.0379/3;
+@departement_ewi_open_2020]. Via deze KPI's wordt er gestreefd naar het tijdig
+behalen van de doelstellingen voor Open Science in Vlaanderen en Europa (zie
+paragraaf \@ref(context)). Vlaanderen streeft ernaar om top te zijn binnen Europa wat
+betreft Open Data en Open Access. De KPI's worden gemeten op instellingsniveau
+en hebben uitsluitend betrekking op het onderzoek dat (geheel of gedeeltelijk)
+gefinancierd wordt met Vlaamse publieke middelen.
+
+In vergelijking met de OSD's, die een INBO-eigen, bottom-up ontstaan hebben,
+zijn de FOSB-KPI's top-down bepaald op een hoger niveau. In beide gevallen is
+een sterke implementatie van Open Science het doel, en daarom nemen we ze graag
+op binnen het framework van de OSD's.
+
+De KPI's focussen zich concreet op:
+
+-   ORCID iD's (KPI0)
+-   Data Management Plan (KPI1)
+-   FAIR (Findable, Accessible, Interoperable, Reusable) data (KPI2)
+-   Open Access (KPI3)
+-   Open Data (KPI4)
+
+De KPI's rond onderzoeksdata (KPI2 en KPI4) hebben enkel betrekking op
+onderzoeksdata gefinancierd met Vlaamse publieke middelen en gekoppeld aan
+peer-reviewed wetenschappelijke **artikels**.
+
+Voor elke KPI werd begin 2021 een nulmeting uitgevoerd. Deze nulmeting is
+belangrijk om de stand van zaken te bepalen. In functie van de nulmeting werd
+voor elke KPI een groeipad uitgestippeld met een duidelijk afgebakend einddoel.
+De KPI's worden jaarlijks per instelling opgevolgd via de jaarrapportering. Op
+basis van de evaluatieresultaten zal het verdere Open Science beleid in
+Vlaanderen en de investering erin bijgestuurd worden, ook rekening houdend met
+internationale tendensen.
+
+Vanuit de FOSB zal concreet ingezet worden op de volgende Open Science Doelen:
+
+-   *De verschillende datastappen in de onderzoekscyclus zijn gedocumenteerd in
+    een Data Management Plan*
+-   *De data zijn open*
+-   *De FAIR principes (Findable, Accessible, Interoperable, Re-usable) worden
+    toegepast*
+-   *De publicaties zijn open*
+

@@ -1,0 +1,303 @@
+# Inleiding
+
+Het Instituut voor Natuur- en Bosonderzoek (INBO) wil via toegepast
+wetenschappelijk onderzoek, data- en kennisontsluiting het biodiversiteitsbeleid
+en -beheer in Vlaanderen onderbouwen en evalueren. Het INBO streeft hierbij naar
+een Open Science benadering. In dit eerste hoofdstuk lichten we het begrip Open
+Science toe, samen met de beleidscontext, historiek en totstandkoming van de
+Open Science Doelen (OSD) op het INBO.
+
+In hoofdstuk \@ref(osd) komt de concrete uitwerking van de Open Science Doelen door INBO
+aan bod.
+
+## Omschrijving van 'Open Science' {#omschrijving}
+
+Open Science is een benadering van het wetenschappelijk proces waarbij het open
+beschikbaar stellen van kennis, methoden en data centraal staat. Deze benadering
+omvat de verschillende methodologische aspecten die van belang zijn om te komen
+tot **kwaliteitsvol** en **transparant** onderzoek. Het open beschikbaar stellen
+van kennis, methoden en data verhoogt de betrouwbaarheid, effectiviteit en
+efficiëntie van het onderzoek en leidt tot meer mogelijkheden voor samenwerking.
+De Open Science benadering is daarmee het onderzoeksmodel dat het beste past bij
+een dienstverlenende overheid.
+
+[Op haar publieke tutorials
+website](https://inbo.github.io/tutorials/articles/open_science/) somt het
+INBO een aantal bronnen uit de wetenschappelijke literatuur op die Open Science
+in meer detail beschrijven [@wouters_ontwerp_2008]. In @ibanez_practicing_2014 lezen we
+bijvoorbeeld:
+
+> '_The Open Science movement is at its core an attempt to correct behaviors in
+the scientific community and return to an environment where **reproducibility**
+is again at the center of scientific research activities. Practicing Open
+Science requires four fundamental ingredients:_
+> 
+> -   *Open data,*
+> -   *Open source,*
+> -   *Open access, and*
+> -   *Open standards.*'
+
+Heel wat literatuurbronnen richten zich op open data en computationele methoden,
+en er wordt in deze context ook gesproken over *Open Data Science* als meer
+specifieke discipline [@lowndes_power_2018].
+
+Er zijn evenwel meerdere perspectieven terug te vinden rond Open Science. Naast
+data, programmeercode en publicaties brengt wetenschappelijk onderzoek immers
+nog onderdelen met zich mee, zoals *het* *opstellen van vraagstelling en design
+[@wouters_ontwerp_2008]*, *onderzoeksprotocols, statistische inferentie* en
+*archivering*. Het INBO koos daarom voor een **totaalbenadering** op basis van
+de volledige onderzoekscyclus (hoofdstuk \@ref(osd)). In elke schakel van de cyclus zijn
+kwaliteit en transparantie belangrijk om de andere schakels te versterken. Het
+betrekken van de volledige onderzoekscyclus zien we bevestigd in de Open Science
+Nota van de Vlaamse regering van 20 december 2019 (VR 2019 2012 DOC.1265/1BIS):
+
+> *'Samengevat slaat Open Science op het openen of transparanter maken van de
+ganse onderzoekscyclus, van conceptualisering over het vergaren van gegevens tot
+het evalueren en publiceren van wetenschappelijke artikels en onderliggende
+gegevens. Zowel Europees als internationaal (zie bijvoorbeeld de publicaties van
+het OECD Global Science Forum ter zake) is er een consensus gegroeid dat we
+onder Open Science het "koepelbegrip" verstaan waaronder elke open vorm van het
+wetenschapsbedrijf wordt samengevat.'*
+
+In wetenschappelijk onderzoek is *reproduceerbaarheid* een belangrijk en sinds
+lang erkend kwaliteitskenmerk [@baker_is_2016; @begley_institutions_2015; @stodden_implementing_2014] - zie ook het citaat van @ibanez_practicing_2014 hoger.
+Reproduceerbaarheid van de onderzoeksresultaten is noodzakelijk om de kwaliteit
+ervan te kunnen aantonen of staven. Een ander relevant kwaliteitsaspect is
+*herhaalbaarheid (repliceerbaarheid)* - vooral belangrijk voor
+niet-computationele methoden waarmee we data genereren. De methoden zijn daarbij
+zo volledig en eenduidig mogelijk beschreven opdat een herhaling tot dezelfde
+onderzoeksconclusies leidt.
+
+Op basis van literatuuronderzoek en de voorgaande inzichten leggen we met 'Open
+Science' de focus op **open en reproduceerbaar** **onderzoek**.
+
+## Beleidscontext en wetenschap {#context}
+
+### Beleidscontext
+
+De **Europese Commissie** stimuleert de lidstaten om te streven naar Open
+Science [@european_commission_open_2021]. Een van de centrale pijlers in het EU Open
+Science beleid is de European Open Science Cloud (EOSC;
+<https://www.eosc.eu>). Recent richtte de EOSC ook
+een partnership op in het kader van Horizon Europe, waarin de EOSC Association
+een centrale rol speelt.
+
+Eind 2019 werd in Vlaanderen de Europese verwachting omgezet in het **Vlaams
+Open Science beleid** [@departement_ewi_flemish_2020]. Dit gaf begin 2020 de aanleiding
+tot de oprichting van de **Flemish Open Science Board (FOSB)**. Deze werd
+opgericht om het beleid rond Open Science uit te zetten en de minister te
+adviseren over de besteding van de middelen die hiertoe worden ingezet. In de
+FOSB zijn onder meer de verschillende publieke onderzoekscentra
+vertegenwoordigd, zoals de universiteiten, hogescholen en de Vlaamse
+Wetenschappelijke Instellingen[^VWI] (VWI's). De bedoeling van de FOSB is het
+uitwerken van een hybride Research Data Management (RDM) infrastructuur in
+functie van de noden van het onderzoekslandschap, het streven naar FAIR [^FAIR]
+Open Data en het aansluiten bij de European Open Science Cloud. De betrokken
+instellingen zullen hierbij worden ondersteund door *data stewards.* Bij de zes
+VWI's zijn momenteel drie data stewards actief, waarvan één werkzaam bij het
+INBO. Om de vooruitgang van Open Science in de verschillende betrokken
+instellingen op te volgen werden vijf Key Performance Indicators (KPI's)
+ontwikkeld (zie paragraaf \@ref(aanpak)).
+
+[^VWI]: Vlaamse Wetenschappelijke Instellingen: het Agentschap Onroerend Erfgoed
+    (AOE), het Agentschap Plantentuin Meise (APM), het Instituut voor Landbouw-,
+    Visserij- en Voedingsonderzoek (ILVO), het Instituut voor Natuur- en
+    Bosonderzoek (INBO), het Koninklijk Museum voor Schone Kunsten Antwerpen
+    (KMSKA) en het Waterbouwkundig Laboratorium (WL).
+    
+[^FAIR]: FAIR = Findable, Accessible, Interoperable, Reusable. Zie
+    <https://en.wikipedia.org/wiki/FAIR_data>.
+
+In verschillende Vlaamse beleidsdocumenten wordt de nadruk gelegd op Open
+Science. Voorbeelden zijn:
+
+-   het Vlaams Regeerakkoord 2019 -2024;
+-   de Visie 2050 [@vlaamse_regering_visie_2016];
+-   de Beleidsnota Economie, wetenschapsbeleid en innovatie van minister Crevits
+    voor 2019-2024;
+-   de Beleidsnota Omgeving van minister Demir voor 2019-2024;
+-   de Open Science Nota van de Vlaamse regering van 20 december 2019 (VR 2019
+    2012 DOC.1265/1BIS);
+-   de Beleids- en begrotingstoelichting Omgeving en Natuur [@vlaams_parlement_beleids-_2020];
+-   de KPI's voor Open Science in Vlaanderen (VR 2020 0412 MED.0379/3).
+
+Tijdens de vorige legislatuur (2014-2019) werd ook het netwerk [**Statistiek
+Vlaanderen**](https://www.statistiekvlaanderen.be/) opgericht. Het gaat om
+een netwerk van Vlaamse overheidsinstanties die openbare statistieken
+ontwikkelen, produceren en publiceren [@statistiek_vlaanderen_statistiek_nodate]. De Vlaamse
+Statistische Autoriteit (VSA), een afdeling van het Departement Kanselarij en
+Buitenlandse Zaken, neemt daarin een coördinerende rol op, zoals voorzien in het
+decreet Vlaamse Openbare Statistieken. Zo stelde Statistiek Vlaanderen
+**protocollen** op om de productie van kwaliteitsvolle, onpartijdige en
+betrouwbare Vlaamse openbare statistieken mogelijk te maken [@statistiek_vlaanderen_protocollen_2020].
+
+### Wetenschappelijke gemeenschap en een gedreven INBO
+
+De beleidscontext, maar ook het streven van de wetenschappelijke gemeenschap
+zelf, leiden ertoe dat **Open Science steeds meer een voorwaarde wordt** in
+wetenschappelijk onderzoek. Bijvoorbeeld:
+
+-   De fondsen en financiers van onderzoeksprojecten stellen hoge eisen op het
+    vlak van de kwaliteit van de gegevensverzameling, zoals een accreditatie
+    voor laboanalyses of het gebruik van standaardprotocollen. Ook
+    transparantie en reproduceerbaarheid van het onderzoek worden in de
+    projectvoorwaarden opgenomen.
+-   Ook voor de publicatie van de onderzoeksresultaten in wetenschappelijke
+    tijdschriften wordt in toenemende mate verwacht dat naast de beschrijving
+    van het onderzoek en de onderzoeksresultaten, ook de data en de scripts
+    voor de analyse op een reproduceerbare wijze ter beschikking worden
+    gesteld.
+
+Behalve de beleidscontext en de externe wetenschappelijke omgeving speelt ook de
+**eigen overtuiging en gedrevenheid** van INBO-medewerkers een belangrijke rol.
+Wetenschappers in het algemeen zijn steeds vaker gemotiveerd om hun
+wetenschappelijk onderzoek reproduceerbaar en transparant te maken. Open Science
+komt ook frequenter aan bod in academische opleidingen.
+
+Doordat reeds langer een voorgeschiedenis van Open Science op het INBO bestaat
+(paragraaf \@ref(voorgeschiedenis)) en door de toegenomen aandacht hiervoor, intern en extern, omarmt INBO
+expliciet 'het model van Open Science' in de [**INBO position
+paper**](https://purews.inbo.be/ws/portalfiles/portal/16446662/Hoffmann_etal_2019_INBOpositionPaper.pdf)
+[@hoffmann_inbo_2019]. Daarin wordt de titel 'transparant, doelgericht en
+toegankelijk onderzoek' vooropgesteld in de aanpak, met specifieke nadruk op
+'wetenschappelijke kwaliteit'.
+
+## Voorgeschiedenis van Open Science op INBO {#voorgeschiedenis}
+
+Het INBO onderkent al lang de noodzaak voor kwaliteitsvol en transparant
+onderzoek. Het is om die reden dat sinds lang is ingezet op **teams met een
+specifieke begeleidende of ondersteunende rol** in methodologische aspecten van
+het wetenschappelijk onderzoek. Deze teams werken samen met of begeleiden de
+onderzoekers, en in bepaalde (meer gespecialiseerde) gevallen trekken zij zelf
+de wetenschappelijke projecten.
+
+Het gaat vooral om de teams Biometrie, Methodologie en Kwaliteitszorg (BMK),
+Databeheer, Open science lab for biodiversity (OSCIBIO), Analytisch
+Laboratorium, Bibliotheek & Informatiebeheer (BIB), Communicatie & Planning. In
+het verleden bestonden een deel van deze teams in andere configuraties of onder
+een andere naam, maar hun rol was ook toen aanwezig. Sinds 2019 neemt bijkomend
+het onderzoeksteam Natuur & Maatschappij verantwoordelijkheden op in het
+uitdragen van Open Science op INBO. Tenslotte heeft het team IT Operaties &
+Ontwikkeling een onmisbare rol in het voorzien van technische omkadering voor
+Open Science.
+
+In 2014 legde het INBO als één van de eerste wetenschappelijke instellingen in
+Vlaanderen haar ambities omtrent open data vast in een open data beleid
+(<https://www.vlaanderen.be/inbo/opendatabeleid/>).
+Het openstellen van data draagt bij tot de transparantie van de werking van het
+INBO, maar heeft ook een belangrijke wetenschappelijke, maatschappelijke en soms
+commerciële waarde. Het beleid bestaat uit tien concrete richtlijnen [@desmet_opendatabeleid_2014] en omvat onder andere het streven om alle wetenschappelijke brondata
+van het INBO publiek beschikbaar te stellen. Dit werd in 2017 aangevuld met een
+open access beleid
+(<https://www.vlaanderen.be/inbo/openaccess-beleid/>),
+waarin richtlijnen worden gedefinieerd omtrent het publiek aanbieden van A1
+artikels [@goossens_openaccessbeleid_2017].
+
+## Totstandkoming van de Open Science Doelen voor projecten op het INBO {#totstandkoming}
+
+Sinds 2017 werken we op het INBO in een **vlakke** structuur met
+**zelforganiserende** teams. Dit heeft gezorgd voor een toegenomen dynamiek en
+samenwerking binnen en tussen de teams die daarvóór reeds werkten rond Open
+Science. In 2019 kwam daarbij de gelegenheid voor de INBO-teams om nieuwe
+programma's voor te stellen voor de meerjarenplanning van het INBO (2020-2024).
+Zo groeide bij de hierboven genoemde teams het idee om, naast de inhoudelijk
+gerichte onderzoeksthema's, ook een INBO-overkoepelend, methodologisch thema
+rond Open Science zichtbaar te maken.
+
+Enkele belangrijke kenmerken van het Open Science programma op INBO:
+
+-   We werken **bottom-up**:
+    -   Elk INBO-team wordt gestimuleerd om zelf nieuwe methoden te leren, of om
+        aan anderen iets aan te leren of te demonstreren.
+    -   Elk INBO-team krijgt de kans om mee te vorm te geven aan de organisatie
+        van het Open Science traject, onder meer via workshops en gedeelde
+        documenten.
+-   We werken **gestructureerd** en **transparant**:
+    -   Voor de hele onderzoekscyclus zijn concrete **Open Science Doelen
+        (OSD's)** benoemd die van toepassing kunnen zijn in
+        onderzoeksprojecten. Samen beschrijven ze het ideaalbeeld **hoe**
+        onderzoek het beste wordt uitgevoerd.
+    -   De OSD's zijn individueel beschreven, met daarbij de 'standaard' rol van
+        verschillende INBO-teams om dit verder te operationaliseren.
+    -   We gaan ervan uit dat de OSD's kunnen en mogen evolueren, door
+        voortschrijdend wetenschappelijk inzicht. We werken daarom met
+        'versies'.
+    -   De verschillende doelen zijn elk toegewezen aan een specifiek onderdeel
+        van de onderzoekscyclus.
+        -   Noot: de huidige OSD's dekken momenteel niet alle aspecten van
+            postpositivistisch en constructivistisch onderzoek af. Naar de
+            toekomst toe zullen de OSD's verder aangevuld worden.
+-   We werken op **korte** en **lange** termijn:
+    -   Alle doelen bereiken kan enkel op lange termijn. Dit lukt enkel als elk
+        individu en elk team geleidelijk aan, maar substantieel aan de
+        competenties werkt.
+-   We doen bij alle teams het **verantwoordelijkheidsbesef** groeien om
+    voortdurend te verbeteren, zowel in het leren als in het uitdragen van
+    methoden.
+-   We onderkennen dat **niet elke OSD in elke situatie** even noodzakelijk,
+    relevant of haalbaar is. Bijvoorbeeld: voor een verkennend
+    (hypothesevormend) onderzoek is een scherpe vraagstelling op voorhand
+    minder prioritair. Wel is het zo dat de 'haalbaarheid' van een OSD ten
+    dele samenhangt met de ervaring van een INBO-medewerker: door steeds meer
+    ervaring op te doen wordt de toepassing van een OSD juist haalbaarder.
+
+Voor de methodologische teams is hun taak in het uitdragen van Open Science op
+INBO daarmee geëvolueerd:
+
+-   van meer individuele initiatieven naar meer samenwerking tussen de teams;
+-   het Open Science programma vormt een overkoepelend programma voor eerdere
+    initiatieven, zoals een veldopleiding over het toepassen van een protocol,
+    een demo over data-cleaning of een cursus over een statistische
+    modelleertechniek. Zo krijgen schijnbaar losstaande initiatieven een
+    duidelijke betekenis in functie van het 'hogere gemeenschappelijke doel',
+    wat deze initiatieven verder versterkt;
+-   het schema van de onderzoekscyclus (figuur \@ref(fig:cyclus)) biedt meer houvast: het
+    plaatst ieders rol in een duidelijker verband.
+
+Naast deze bottom-up, opportuniteitsgedreven aanpak, zijn er vanuit het
+management en vanuit de FOSB ook concrete **ambities en verwachtingen**:
+
+-   Het **INBO** wil dat haar onderzoek nog vaker dan nu een solide en
+    aantoonbare wetenschappelijke kwaliteit heeft. Ze verwacht dan ook van
+    haar medewerkers dat zij actief meestappen in het Open Science programma
+    om hier verder in te groeien.
+-   Het **INBO** wil hierin als wetenschappelijke instelling een voortrekkersrol
+    blijven spelen op Vlaams en op internationaal niveau.
+-   De **FOSB** heeft voor de Vlaamse Wetenschappelijke Instellingen (VWI's)
+    vijf concrete streefdoelen gedefinieerd onder de vorm van *Key Performance
+    Indicators* (KPI's): zie paragraaf \@ref(fosb).
+
+## Verhoogde opportuniteiten tot samenwerking {#samenwerking}
+
+De geëvolueerde dynamiek rond Open Science binnen en buiten het INBO leidt tot
+bijkomende opportuniteiten voor samenwerking met onder meer:
+
+-   *Vlaamse Wetenschappelijke Instellingen*: samenwerking in het kader van de
+    Flemish Open Science Board (FOSB). Dit schept bv. opportuniteiten om samen
+    opleidingen te organiseren;
+-   *Statistiek Vlaanderen*: afspraken maken over gestandaardiseerd rapporteren
+    van indicatoren;
+-   *Departement EWI*: aanleveren van onderzoeksoutput aan het Flanders Research
+    Information Space (FRIS);
+-   *Vlaamse Commissie voor Wetenschappelijke Integriteit (VCWI) & Commissie
+    Wetenschappelijke Integriteit INBO (CWI-INBO)*: Open Science draagt in
+    grote mate bij tot een integere wetenschappelijke cultuur;
+-   *Omgevingsinformatiesamenwerkingsverband (OIS) & andere entiteiten van het
+    beleidsdomein Omgeving*: opstarten van gezamenlijke initiatieven rond Open
+    Data, datakwaliteit en uitwisseling van data. Deze worden geïdentificeerd
+    als "digitale opportuniteiten" voor het beleidsdomein;
+-   *DMPOnline.be*: Platform voor aanmaken van Data Management Plannen. INBO is
+    lid van dit consortium en maakte INBO-sjablonen voor dit platform;
+-   *Belgian Biodiversity Platform; Vlaams Instituut voor de Zee (VLIZ); ELIXIR
+    (<https://elixir-europe.org/>); The
+    Carpentries*: voor het organiseren van training workshops;
+-   *Global Biodiversity Information Facility (GBIF), Zenodo, Movebank, Dryad,
+    OpenAire+*: dit zijn repositories voor open INBO data. Zij kunnen de
+    functionaliteiten in overweging nemen die het INBO wenst;
+-   *Biodiversity Information Standards (TDWG); Biologging community*:
+    ontwikkelingen van standaarden voor open data;
+-   *rOpenSci*: peer review van R packages en bekendmaken ervan naar bredere
+    community;
+-   *Research Data Alliance*: uitwisseling van expertise rond Research Data
+    Management en Data Management Plannen (DMP's).
+

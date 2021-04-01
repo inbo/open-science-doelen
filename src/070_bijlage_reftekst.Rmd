@@ -1,0 +1,104 @@
+# (APPENDIX) Bijlagen {-}
+
+# Bijlage: Referentietekst voor de INBO medewerkers {#app:reftekst}
+
+**Open Science: naar een kwaliteitsvolle en transparante onderzoekscyclus**
+
+Het bereiken van een solide en aantoonbare wetenschappelijke kwaliteit
+impliceert dat het INBO op termijn zoveel mogelijk volgens de methoden van open
+en reproduceerbaar onderzoek - kortweg **Open Science** - zal opereren.
+Hieronder verstaan we verschillende elementen:
+
+-   **openheid en reproduceerbaarheid** [^herhaalbaarheid] op zich zijn geen garantie voor
+    kwaliteit. Ze zijn echter een noodzakelijke randvoorwaarde om de kwaliteit
+    te kunnen aantonen of staven. Ze zijn ook nodig om samenwerking intern en
+    extern te faciliteren zodat het resultaat verder kan verbeteren en zodat
+    vervolgstappen gezet kunnen worden. Op INBO vullen we de 'Open Science
+    Doelen' (OSD's) daarom concreet in met doelstellingen voor zowel kwaliteit
+    als transparantie;
+-   in een open **samenwerkingscultuur** kan en mag elke wetenschapper feedback
+    geven of verbeteringen bijdragen: de wetenschappelijke community en de
+    wetenschappelijke doelstelling staan centraal. Persoonlijke credits
+    ontstaan als gevolg van de bijdrage aan het systeem, en door het
+    openstellen van data, methoden en/of onderzoeksresultaten;
+-   in een toekomstgerichte wetenschappelijke praktijk heeft de
+    wetenschappelijke community inzicht in en controle over alle aspecten van
+    de onderzoeksketen. De methoden zijn dus open en maximaal in handen van de
+    community (vermijd 'black boxes'), die zo een hoge graad van
+    **onafhankelijkheid** bereikt;
+-   tenslotte zijn transparantie en **delen** evidenties voor een publieke
+    instantie. Door de Open Science Doelen na te streven, passen we dit
+    principe consequent toe in onze onderzoekspraktijk en zijn we
+    vooruitstrevend in onze aanpak.
+
+[^herhaalbaarheid]: Of, voor taken in minder gecontroleerde omstandigheden (zoals
+    terreinwerk): herhaalbaarheid.
+
+De OSD's gaan over **wetenschappelijke kenmerken** van projecten (inhoudelijk /
+technisch). Aspecten van procesbeheersing (bv. planning, projectevaluatie,
+personeelsevaluatie) vallen **buiten** de scope.
+
+De lijst is lang en zal jou misschien afschrikken!! ECHTER: het is juist de
+bedoeling om **stap voor stap** te werken, en daarbij zoveel mogelijk mensen te
+**stimuleren** om hierin te groeien volgens het ***fail*** [^FAIL] ***forward***
+principe:
+
+-   een goede communicatie en terugkerende interactie is belangrijk.
+-   de methodologische teams willen er voor zorgen dat alle teams voldoende
+    ondersteuning krijgen om aan de OSD's te werken, zeker voor projectteams
+    met een hoge bereidheid om hieraan te werken en waar een inhaalslag nodig
+    is.
+-   beschouw de OSD's niet als een extra 'last' - het is een **opportuniteit om
+    te leren**: eenmaal je OSD-vaardigheden verworven hebt, verhogen deze de
+    efficiëntie en transparantie van je werk.
+-   er is een **gedeelde verantwoordelijkheid** tussen:
+    -   ***onderzoeksteams***: als partij die bereid is tot nodige
+        **kennisverwerving en implementatie**, of die reeds een techniek
+        beheerst, dit **uitdraagt** en zo een **voortrekkers-/voorbeeldrol**
+        opneemt;
+    -   ***methodologische teams***: als **gids**, en als **leverancier** van
+        tools en methodologie. Ook deze teams hebben de verantwoordelijkheid
+        tot **kennisverwerving en implementatie**.
+-   voorgaande rolverdeling verduidelijkt ook dat er geen *scherp* onderscheid
+    is tussen rollen van teams: in de meeste teams zijn zowel **uitvoerders**
+    (gebruikers) als **(potentiële) begeleiders** te vinden. **Elke vorm van
+    begeleiding** rond een OSD (binnen team & teamoverschrijdend) en **elke
+    nieuwe OSD-voorbeeldcase/demo**, **vanuit gelijk welk team**, is een
+    waardevolle stap in het OSD-verhaal!!
+-   niet in elke situatie is elke OSD even noodzakelijk, relevant of haalbaar,
+    en ook dit moet onderkend worden. Wel is het zo dat de '**haalbaarheid**'
+    ten dele samenhangt met de ervaring van een onderzoeker/medewerker i.v.m.
+    de technieken en methoden: door steeds meer ervaring op te doen wordt de
+    toepassing ervan juist haalbaarder, en daarop moet dus blijvend ingezet
+    worden.
+
+[^FAIL]: FAIL = First Attempt In Learning.
+
+INBO kan deze streefdoelen onmogelijk op korte termijn realiseren. [Het is een
+kader voor de **lange termijn**, en dus toepasbaar voor lange tijd]. Het
+zal weliswaar maar realiteit worden door er continu en heel substantieel, jaar
+na jaar, aan te werken. Dit is een **verantwoordelijkheid** van elke
+INBO-medewerker!
+
+Een belangrijke implicatie is ook de **tijd** die INBO-medewerkers zullen moeten
+voorzien voor de feitelijke **activiteiten**:
+
+-   **verwerving** van Open Science methoden (volgen van OSD-gelieerde
+    **opleiding** / **coding club** / overleg / workshop / \...).
+-   **implementatie** van Open Science methoden in de eigen onderzoekspraktijk:
+    in het begin is er immers een leercurve.
+-   het **uitdragen** van Open Science kennis of vaardigheden, zowel binnen het
+    eigen (onderzoeks)team als teamoverschrijdend: **organiseren** van
+    opleiding / coding club ([coding club
+    website](https://inbo.github.io/coding-club)) / overleg / workshop /
+    ..., het schrijven van een **protocol** of een **tutorial** (zie website
+    [INBO-tutorials](https://inbo.github.io/tutorials/)), studiedag
+    organiseren, enz.
+-   **meehelpen** aan de realisatie van OSD op INBO, o.a. via het stimuleren en
+    opvolgen van OSD-ontwikkeling binnen het eigen team, het mee
+    organiseren/brainstormen/coördineren of het bewaken van de aanwezigheid &
+    doorstroming op INBO van relevante topics, technologieën en hulpmiddelen.
+
+Het overzicht van de OSD's vind je in paragraaf \@ref(overzicht). Een meer gedetailleerde
+omschrijving vind je in bijlage \@ref(app:osd-uitgewerkt).
+

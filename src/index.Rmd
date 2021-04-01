@@ -1,0 +1,32 @@
+---
+title: "Open Science bij het INBO: naar een kwaliteitsvolle en transparante onderzoekscyclus"
+subtitle: "Een overzicht van de INBO Open Science Doelen voor projecten - versie 1.0"
+author: "Floris Vanderhaeghe, Aaike De Wever, Lien Reyserhove, Peter Desmet, Thierry Onkelinx, Bart Goossens, Saskia Wanner, Gerrit Genouw, Lymke Janssens, Francis Turkelboom, Toon Van Daele"
+reportnr: "doi.org/10.21436/inbor.34205394"
+link-citations: TRUE
+bibliography: referenties.yaml
+site: bookdown::bookdown_site
+output:
+  bookdown::pdf_book:
+    base_format: INBOmd::inbo_rapport
+    style: INBO
+    tocdepth: 3
+    lof: TRUE
+    lot: TRUE
+    floatbarrier: subsection
+    citation_package: none
+    pandoc_args: !expr c("--metadata", "lang=nl")
+    keep_tex: TRUE
+---
+
+```{r setup, include=FALSE}
+options(stringsAsFactors = FALSE,
+        knitr.table.format = "pandoc")
+uitvoer <- knitr::opts_knit$get("rmarkdown.pandoc.to")
+knitr::opts_chunk$set(
+  echo = ifelse(is.null(uitvoer), TRUE,
+                !(uitvoer %in% c("latex", "docx"))),
+  dpi = 300
+)
+```
+
