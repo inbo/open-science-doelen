@@ -4,6 +4,7 @@ subtitle: "Een overzicht van de INBO Open Science Doelen voor projecten - versie
 author: "Floris Vanderhaeghe, Aaike De Wever, Lien Reyserhove, Peter Desmet, Thierry Onkelinx, Bart Goossens, Saskia Wanner, Gerrit Genouw, Lymke Janssens, Francis Turkelboom, Toon Van Daele"
 reportnr: "doi.org/10.21436/inbor.34205394"
 link-citations: TRUE
+lang: nl
 bibliography: referenties.yaml
 site: bookdown::bookdown_site
 output:
@@ -15,7 +16,6 @@ output:
     lot: TRUE
     floatbarrier: subsection
     citation_package: none
-    pandoc_args: !expr c("--metadata", "lang=nl")
     keep_tex: TRUE
 ---
 
