@@ -17,7 +17,8 @@ beschikbaar stellen van kennis, methoden en data centraal staat. Deze benadering
 omvat de verschillende methodologische aspecten die van belang zijn om te komen
 tot **kwaliteitsvol** en **transparant** onderzoek. Het open beschikbaar stellen
 van kennis, methoden en data verhoogt de betrouwbaarheid, effectiviteit en
-efficiëntie van het onderzoek en leidt tot meer mogelijkheden voor samenwerking.
+efficiëntie van het onderzoek.
+Het zorgt voor meer mogelijkheden voor samenwerking en een mogelijk snellere toepassing van de onderzoeksresultaten.
 De Open Science benadering is daarmee het onderzoeksmodel dat het beste past bij
 een dienstverlenende overheid.
 
@@ -44,7 +45,8 @@ specifieke discipline [@lowndes_power_2018].
 Er zijn evenwel meerdere perspectieven terug te vinden rond Open Science. Naast
 data, programmeercode en publicaties brengt wetenschappelijk onderzoek immers
 nog onderdelen met zich mee, zoals *het* *opstellen van vraagstelling en design
-[@wouters_ontwerp_2008]*, *onderzoeksprotocols, statistische inferentie* en
+[@wouters_ontwerp_2008] met inzicht in het socio-ecologisch systeem*, 
+*onderzoeksprotocols*, *statistische inferentie* en
 *archivering*. Het INBO koos daarom voor een **totaalbenadering** op basis van
 de volledige onderzoekscyclus (hoofdstuk \@ref(osd)). In elke schakel van de cyclus zijn
 kwaliteit en transparantie belangrijk om de andere schakels te versterken. Het
@@ -61,7 +63,7 @@ wetenschapsbedrijf wordt samengevat.'*
 
 In wetenschappelijk onderzoek is *reproduceerbaarheid* een belangrijk en sinds
 lang erkend kwaliteitskenmerk [@baker_is_2016; @begley_institutions_2015; @stodden_implementing_2014] - zie ook het citaat van @ibanez_practicing_2014 hoger.
-Reproduceerbaarheid van de onderzoeksresultaten is noodzakelijk om de kwaliteit
+Reproduceerbaarheid van de onderzoeksresultaten, op basis van de verzamelde data, is noodzakelijk om de kwaliteit
 ervan te kunnen aantonen of staven. Een ander relevant kwaliteitsaspect is
 *herhaalbaarheid (repliceerbaarheid)* - vooral belangrijk voor
 niet-computationele methoden waarmee we data genereren. De methoden zijn daarbij
@@ -93,10 +95,10 @@ Wetenschappelijke Instellingen[^VWI] (VWI's). De bedoeling van de FOSB is het
 uitwerken van een hybride Research Data Management (RDM) infrastructuur in
 functie van de noden van het onderzoekslandschap, het streven naar FAIR [^FAIR]
 Open Data en het aansluiten bij de European Open Science Cloud. De betrokken
-instellingen zullen hierbij worden ondersteund door *data stewards.* Bij de zes
-VWI's zijn momenteel drie data stewards actief, waarvan één werkzaam bij het
+instellingen zullen hierbij worden ondersteund door *data stewards.* Voor de zes
+VWI's worden momenteel drie data stewards ingezet, waarvan één werkzaam bij het
 INBO. Om de vooruitgang van Open Science in de verschillende betrokken
-instellingen op te volgen werden vijf Key Performance Indicators (KPI's)
+instellingen op te volgen, werden vijf _Key Performance Indicators_ (KPI's)
 ontwikkeld (zie paragraaf \@ref(aanpak)).
 
 [^VWI]: Vlaamse Wetenschappelijke Instellingen: het Agentschap Onroerend Erfgoed
@@ -199,7 +201,7 @@ Sinds 2017 werken we op het INBO in een **vlakke** structuur met
 **zelforganiserende** teams. Dit heeft gezorgd voor een toegenomen dynamiek en
 samenwerking binnen en tussen de teams die daarvóór reeds werkten rond Open
 Science. In 2019 kwam daarbij de gelegenheid voor de INBO-teams om nieuwe
-programma's voor te stellen voor de meerjarenplanning van het INBO (2020-2024).
+programma's én projecten voor te stellen voor de meerjarenplanning van het INBO (2020-2024).
 Zo groeide bij de hierboven genoemde teams het idee om, naast de inhoudelijk
 gerichte onderzoeksthema's, ook een INBO-overkoepelend, methodologisch thema
 rond Open Science zichtbaar te maken.
@@ -225,7 +227,7 @@ Enkele belangrijke kenmerken van het Open Science programma op INBO:
     -   De verschillende doelen zijn elk toegewezen aan een specifiek onderdeel
         van de onderzoekscyclus.
         -   Noot: de huidige OSD's dekken momenteel niet alle aspecten van
-            postpositivistisch en constructivistisch onderzoek af. Naar de
+            postpositivistisch en constructivistisch onderzoek [^constructivisme] af. Naar de
             toekomst toe zullen de OSD's verder aangevuld worden.
 -   We werken op **korte** en **lange** termijn:
     -   Alle doelen bereiken kan enkel op lange termijn. Dit lukt enkel als elk
@@ -240,6 +242,8 @@ Enkele belangrijke kenmerken van het Open Science programma op INBO:
     minder prioritair. Wel is het zo dat de 'haalbaarheid' van een OSD ten
     dele samenhangt met de ervaring van een INBO-medewerker: door steeds meer
     ervaring op te doen wordt de toepassing van een OSD juist haalbaarder.
+    
+[^constructivisme]: Zie <https://nl.wikipedia.org/wiki/Constructivisme_(filosofie)> en <https://en.wikipedia.org/wiki/Postpositivism>.
 
 Voor de methodologische teams is hun taak in het uitdragen van Open Science op
 INBO daarmee geëvolueerd:
@@ -280,7 +284,7 @@ bijkomende opportuniteiten voor samenwerking met onder meer:
 -   *Departement EWI*: aanleveren van onderzoeksoutput aan het Flanders Research
     Information Space (FRIS);
 -   *Vlaamse Commissie voor Wetenschappelijke Integriteit (VCWI) & Commissie
-    Wetenschappelijke Integriteit INBO (CWI-INBO)*: Open Science draagt in
+    Wetenschappelijke Integriteit INBO ([CWI-INBO](https://www.vlaanderen.be/inbo/over-ons/wetenschappelijke-integriteit/))*: Open Science draagt in
     grote mate bij tot een integere wetenschappelijke cultuur;
 -   *Omgevingsinformatiesamenwerkingsverband (OIS) & andere entiteiten van het
     beleidsdomein Omgeving*: opstarten van gezamenlijke initiatieven rond Open

@@ -5,8 +5,8 @@ onderzoekscyclus (figuur \@ref(fig:cyclus)).
 
 ![(\#fig:cyclus)De fasen van de onderzoekscyclus.](media/onderzoekscyclus.jpg){width="5.9in" height="4.75in"}
 
-De OSD's van tabel \@ref(tab:overzicht) worden meer in detail beschreven **in bijlage
-B**.
+In tabel \@ref(tab:overzicht) worden de respectievelijke OSD's opgesomd per fase, met een samenvatting van de rollen van uitvoerder en begeleider.
+De OSD's worden meer in detail beschreven **in bijlage \@ref(app:osd-uitgewerkt)**.
 
 \blandscape
 

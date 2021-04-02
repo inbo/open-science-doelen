@@ -5,8 +5,8 @@ organisatie van het 'Open Science Doelen' (OSD) traject. Velen van hen namen
 deel aan OSD-workshops of droegen bij via discussies (alfabetisch op voornaam):
 An Leyssen, Arno Thomaes, Bert Huygens, Damiano Oldoni, Dimitri Brosens, Dirk
 Maes, Els Lommelen, Frederic Piesschaert, Hans Van Calster, Ine Pauwels, Ilse
-Simoens, Jan Breine, Jeroen Vanden Borre, Jim Casaer, Joost Vanoverbeke, Julie
-Callebaut, Karen Cox, Marijke Thoonen, Merlijn Jocqué, Nathalie Cools, Nicolas
+Simoens, Jan Breine, Jeroen Vanden Borre, Jim Casaer, Johan Peymen, Joost Vanoverbeke, Julie
+Callebaut, Karen Cox, Marc Pollet, Marijke Thoonen, Merlijn Jocqué, Nathalie Cools, Nicolas
 Vanermen, Patrik Oosterlynck, Peter Van Gossum, Raïsa Carmen, Sandra Van
 Waeyenberge, Tanja Milotic, Tim Adriaens, Tom De Dobbelaer.
 
@@ -15,7 +15,7 @@ Programma ten volle te ondersteunen en te stimuleren. We bedanken in het
 bijzonder Johan Peymen, Marc Pollet en Maurice Hoffmann. Johan en Marc zijn ook
 actief betrokken bij het OSD-traject.
 
-Hans Van Calster, Peter Van Gossum, Johan Peymen, Koen Van Muylem, Merlijn
+Hans Van Calster, Peter Van Gossum, Johan Peymen, Marc Pollet, Koen Van Muylem, Merlijn
 Jocqué en Joost Vanoverbeke suggereerden verbeteringen in dit rapport. Hartelijk
 dank!
 
@@ -29,7 +29,8 @@ helpen. Doe zo verder en blijf anderen inspireren!
 Open Science wordt steeds meer de **voorkeursbenadering** voor wetenschappelijk
 onderzoek. Open Science leidt tot kwaliteitsvol en transparant onderzoek en
 verhoogt op die manier de betrouwbaarheid. Het biedt ook de beste kansen tot
-samenwerking. De Open Science benadering is daarmee het onderzoeksmodel dat het
+samenwerking en een mogelijk snellere toepassing van de onderzoeksresultaten. 
+De Open Science benadering is daarmee het onderzoeksmodel dat het
 beste past bij een dienstverlenende overheid.
 
 Met 'Open Science' verwijzen we naar de methoden van **open en reproduceerbaar
@@ -59,7 +60,7 @@ Vlaamse onderzoeksinstellingen om in toenemende mate Open Science toe te passen.
 De FOSB stelde **data stewards** aan om de ideeën van Open Science verder uit te
 dragen in de Vlaamse Wetenschappelijke Instellingen, waaronder het INBO. Binnen
 INBO staat de data steward mee in voor de coördinatie van de Open Science
-Doelen. De FOSB schuift de komende jaren vijf streefdoelen naar voor: ORCID
+Doelen. De FOSB schuift de komende jaren vijf streefdoelen (KPI's) naar voor: ORCID
 iD's, Data Management Plannen, FAIR data, open access en open data.
 
 # Aanbevelingen voor het beleid {-}
@@ -92,7 +93,7 @@ plaatsvindt.
     -   Belangrijk is het lange-termijnaspect: mensen kunnen niet alles tegelijk
         leren. Er moet wel recurrent en substantieel aan gewerkt worden:
         levenslang leren en voortdurend verbeteren zijn hierin belangrijk.
--   Iedereen: **inspireer je**.
+-   Iedereen: **laat je inspireren**.
     -   Dit rapport en de verschillende literatuurreferenties bieden meer
         inzicht in de verschillende facetten van open en reproduceerbaar
         onderzoek. In dit rapport gebeurt dit door de oplijsting van onze Open
@@ -105,15 +106,16 @@ plaatsvindt.
 Open Science is **increasingly preferred** in scientific research. It results in
 high-quality and transparent research, paving the way to increased
 trustworthiness. Furthermore, Open Science provides the best potential for
-collaboration. These properties make it the most suitable research approach for
+collaboration and a potentially faster application of the research results.
+These properties make it the most suitable research approach for
 public authorities.
 
 By 'Open Science' we mean methods of **open and reproducible research**. At the
 Research Institute for Nature and Forest (INBO), the Open Science approach
 historically received much attention already. Through the INBO 'Open Science
-programme' it gets even more **aligned with the whole research cycle**.
+programme' it now gets even more **aligned with the whole research cycle**.
 
-With this report we want to reach scientists within and outside INBO and:
+With this report we want to reach out to scientists within and outside INBO and:
 
 -   offer tangible leads to engage with Open Science methods in every research
     step;
@@ -130,9 +132,9 @@ at the same speed or extent: they rather serve as a roadmap.
 
 At a higher level the **Flemish Open Science Board (FOSB)** encourages Flemish
 research organizations to increasingly apply Open Science. The FOSB appointed
-**data stewards** to accelerate the Open Science ideas in the Flemish Scientific
-Institutes, among which INBO. At INBO the data steward helps in coordinating the
-Open Science Goals. The FOSB has put forward five objectives: ORCID iDs, Data
+**data stewards** to accelerate the Open Science ideas within the Flemish Scientific
+Institutes, including INBO. At INBO the data steward helps in coordinating the
+Open Science Goals. The FOSB has put forward five objectives (treated as KPIs): ORCID iDs, Data
 Management Plans, FAIR data, open access and open data.
 
 

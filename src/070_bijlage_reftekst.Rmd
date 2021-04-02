@@ -2,7 +2,10 @@
 
 # Bijlage: Referentietekst voor de INBO medewerkers {#app:reftekst}
 
-**Open Science: naar een kwaliteitsvolle en transparante onderzoekscyclus**
+Met de onderstaande, oorspronkelijke tekst werden het idee en de praktijk van de Open Science Doelen aan alle INBO-medewerkers verduidelijkt.
+Deze tekst blijft voor iedereen van het INBO **de referentie** om te kunnen zien waar Open Science op INBO praktisch op neerkomt.
+
+### Open Science: naar een kwaliteitsvolle en transparante onderzoekscyclus {-}
 
 Het bereiken van een solide en aantoonbare wetenschappelijke kwaliteit
 impliceert dat het INBO op termijn zoveel mogelijk volgens de methoden van open
