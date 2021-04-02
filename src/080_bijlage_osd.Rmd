@@ -5,6 +5,9 @@ onderzoekscyclus:
 
 ![](media/onderzoekscyclus.jpg){width="5.9in" height="4.75in"}
 
+Deze fasen komen hierna terug als hoofdtitels.
+De subtitels, boven elke OSD, zijn de **labels** van de OSD's zoals opgenomen in tabel \@ref(tab:overzicht).
+
 Voor het realiseren van een kwaliteitsvolle en transparante onderzoekscyclus is
 het, naast het toepassen van relevante OSD's, van belang om de voortgang van het
 project en de vlotte doorstroming doorheen de onderzoekscyclus te bewaken.
