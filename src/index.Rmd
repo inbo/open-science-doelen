@@ -2,7 +2,7 @@
 title: "Open Science bij het INBO: naar een kwaliteitsvolle en transparante onderzoekscyclus"
 subtitle: "Een overzicht van de INBO Open Science Doelen voor projecten - versie 1.1"
 author: "Floris Vanderhaeghe, Aaike De Wever, Lien Reyserhove, Peter Desmet, Thierry Onkelinx, Bart Goossens, Saskia Wanner, Gerrit Genouw, Lymke Janssens, Francis Turkelboom, Toon Van Daele"
-reportnr: "doi.org/10.21436/inbor.34205394"
+doi: "doi.org/10.21436/inbor.34205394"
 link-citations: TRUE
 lang: nl
 bibliography: referenties.yaml
