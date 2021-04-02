@@ -10,622 +10,286 @@ B**.
 
 \blandscape
 
-Table: (\#tab:overzicht)Overzicht van de Open Science Doelen voor projecten.
+```{r eval=FALSE, results="asis", message=FALSE}
+library(googlesheets4)
+gs4_deauth()
+library(dplyr)
+gsheet <- as_sheets_id("1nEklQ8vNFeidSedv-xCf-iPV7odEPGCDq9cuCnnTkTc")
+read_sheet(gsheet)  %>%  
+    mutate(across(2:4, ~ifelse(is.na(.), "", .))) %>% 
+    pander::pandoc.table(keep.line.breaks = TRUE,
+                         style = "grid",
+                         split.tables = Inf,
+                         split.cells = c(20, 20, 40, 40),
+                         justify = "llll",
+                         caption = "(\\#tab:overzicht)Overzicht van de Open Science Doelen voor projecten.")
+```
 
-+------------------+------------------+------------------+------------------+
-| **OSD**          | **Label**        | **Rol van de     | **Rol van de     |
-|                  |                  | uitvoerder (op   | begeleider       |
-|                  |                  | alle teams van   | (vaak, maar niet |
-|                  |                  | toepassing)**    | uitsluitend:     |
-|                  |                  |                  | methodologische  |
-|                  |                  |                  | teams)**         |
-+==================+==================+==================+==================+
-| **Ontwerp**      |                  |                  |                  |
-+------------------+------------------+------------------+------------------+
-| **De             | **Relevante      | \- problematiek  | \- aanbieden     |
-| vraagstelling    | vraag**          | en vraagstelling | opleid           |
-| beantwoordt een  |                  | in breder        | ing/methodologie |
-| maatschappelijke |                  | maatschappelijk  | m.b.t. soft      |
-| en/of            |                  | kader plaatsen   | system thinking  |
-| beleidsrelevante |                  |                  | (                |
-| info             |                  | \- inzicht       | socio-ecologisch |
-| rmatiebehoefte** |                  | verwerven in het | systeemdenken),  |
-|                  |                  | relevante        | vraaganalyse,    |
-|                  |                  | socio-ecologisch | aanbodanalyse    |
-|                  |                  | systeem          |                  |
-|                  |                  |                  | \-               |
-|                  |                  | \- vraagstelling | klankbordfunctie |
-|                  |                  | motiveren o.b.v. |                  |
-|                  |                  | analyse van      | \- bronnen       |
-|                  |                  | in               | (literatuur      |
-|                  |                  | formatiebehoefte | e.a.) beheren /  |
-|                  |                  | en bestaand      | ontsluiten       |
-|                  |                  | aanbod           |                  |
-|                  |                  |                  | \- (+ rol        |
-|                  |                  | \- ook motiveren | managementteam:  |
-|                  |                  | wat niet is      | toetst           |
-|                  |                  | opgenomen        | relevantie)      |
-|                  |                  |                  |                  |
-|                  |                  | \- de motivatie, |                  |
-|                  |                  | de vraag, en het |                  |
-|                  |                  | proces daartoe   |                  |
-|                  |                  | raadpleegbaar    |                  |
-|                  |                  | maken            |                  |
-+------------------+------------------+------------------+------------------+
-| **De outputs en  | **Co             | \- afspraken     | \-               |
-| wijze van        | mmunicatieplan** | maken met        | klankbordfunctie |
-| communiceren     |                  | partners en      |                  |
-| zijn vooraf      |                  | stakeholders     | \- ondersteunen  |
-| gedocumenteerd   |                  | over output en   | commu            |
-| in een           |                  | communicatie     | nicatiestrategie |
-| c                |                  |                  |                  |
-| ommunicatieplan, |                  | \- dubbelchecken |                  |
-| gedragen door    |                  | of de relevante  |                  |
-| stakeholders**   |                  | doelgroep(en)    |                  |
-|                  |                  | betrokken worden |                  |
-|                  |                  | in de            |                  |
-|                  |                  | behoefte-analyse |                  |
-|                  |                  | (zie motivatie   |                  |
-|                  |                  | vraagstelling in |                  |
-|                  |                  | OSD 'relevantie  |                  |
-|                  |                  | voor             |                  |
-|                  |                  | maatschappij en  |                  |
-|                  |                  | beleid')         |                  |
-|                  |                  |                  |                  |
-|                  |                  | \- per output    |                  |
-|                  |                  | documenteren:    |                  |
-|                  |                  | doelgroep, type  |                  |
-|                  |                  | output en timing |                  |
-|                  |                  | van communiceren |                  |
-+------------------+------------------+------------------+------------------+
-| **De             | **Scherpe        | \- vraag         | \- ondersteuning |
-| vraagstelling is | vraagstelling**  | meetbaar /       | bieden           |
-| scherp en helder |                  | toetsbaar        |                  |
-| geformuleerd**   |                  | formuleren       | \-               |
-|                  |                  |                  | klankbordfunctie |
-|                  |                  | \- gewenste      |                  |
-|                  |                  | inf              |                  |
-|                  |                  | ormatiekwaliteit |                  |
-|                  |                  | (kwantitatief)   |                  |
-|                  |                  | uitdrukken       |                  |
-|                  |                  | (minimum te      |                  |
-|                  |                  | detecteren       |                  |
-|                  |                  | effect,          |                  |
-|                  |                  | betrouw          |                  |
-|                  |                  | baarheidsniveau, |                  |
-|                  |                  | power)           |                  |
-|                  |                  |                  |                  |
-|                  |                  | \-               |                  |
-|                  |                  | literatuurstudie |                  |
-|                  |                  | gebruiken        |                  |
-+------------------+------------------+------------------+------------------+
-| **De             | **Opzet ikv      | \- opzet maken   | \- afweging      |
-| onderzoeksopzet  | vraagstelling**  | die effectief    | methoden         |
-| is afgestemd op  |                  | een antwoord     | ondersteunen     |
-| de vraagstelling |                  | geeft op vraag   |                  |
-| en               |                  |                  | \- ondersteunen  |
-| gedocumenteerd** |                  | \- geschikte     | protocollen      |
-|                  |                  | meettechnieken   |                  |
-|                  |                  | bepalen          | \-               |
-|                  |                  |                  | klankbordfunctie |
-|                  |                  | \- maximaal      |                  |
-|                  |                  | overwegen van    | \- vuistregels   |
-|                  |                  | automatische     | s                |
-|                  |                  | data-captatie    | teekproefgrootte |
-|                  |                  |                  | aanbieden        |
-|                  |                  | \- protocollen   |                  |
-|                  |                  | selecteren of    | \- kosten helpen |
-|                  |                  | opstellen        | begroten         |
-|                  |                  |                  |                  |
-|                  |                  | \- grootteorde   | \- ondersteunen  |
-|                  |                  | in ruimte        | / stimuleren     |
-|                  |                  | (locaties) en    | ke               |
-|                  |                  | tijd             | nnisuitwisseling |
-|                  |                  | (frequentie)     | rond validatie   |
-|                  |                  | opgeven          | in het veld en   |
-|                  |                  | (st              | automatische     |
-|                  |                  | eekproefgrootte) | data-captatie    |
-|                  |                  |                  |                  |
-|                  |                  | \- looptijd      |                  |
-|                  |                  | bepalen          |                  |
-|                  |                  |                  |                  |
-|                  |                  | \-               |                  |
-|                  |                  | schaduwmeetnet   |                  |
-|                  |                  | overwegen om     |                  |
-|                  |                  | beter idee te    |                  |
-|                  |                  | krijgen van de   |                  |
-|                  |                  | meetfout         |                  |
-|                  |                  |                  |                  |
-|                  |                  | \-               |                  |
-|                  |                  | kos              |                  |
-|                  |                  | teneffectiviteit |                  |
-|                  |                  | optimaliseren en |                  |
-|                  |                  | terugkoppelen    |                  |
-|                  |                  | met              |                  |
-|                  |                  | opdrachtgever /  |                  |
-|                  |                  | stakeholders     |                  |
-|                  |                  | (budgetten)      |                  |
-|                  |                  |                  |                  |
-|                  |                  | \-               |                  |
-|                  |                  | a                |                  |
-|                  |                  | nalyse-werkwijze |                  |
-|                  |                  | concretiseren    |                  |
-|                  |                  |                  |                  |
-|                  |                  | \- bestuderen    |                  |
-|                  |                  | van              |                  |
-|                  |                  | mogelijkheden    |                  |
-|                  |                  | tot validatie    |                  |
-|                  |                  |                  |                  |
-|                  |                  | \- documenteren  |                  |
-|                  |                  | van alle         |                  |
-|                  |                  | gemaakte keuzes  |                  |
-|                  |                  | in de            |                  |
-|                  |                  | onderzoeksopzet  |                  |
-|                  |                  | (zie ook DMP     |                  |
-|                  |                  | voor de          |                  |
-|                  |                  | datagerelateerde |                  |
-|                  |                  | elementen)       |                  |
-+------------------+------------------+------------------+------------------+
-| **De             | **Opzet ikv      | \- een concrete  | \- ondersteunen  |
-| onderzoeksopzet  | outputs**        | voorafspiegeling | bij het          |
-| is afgestemd op  |                  | maken van het    | toepassen van de |
-| de weer te geven |                  | type uitkomsten  | leidraad voor    |
-| onderz           |                  | in elke output   | ontwerp          |
-| oeksresultaten** |                  |                  |                  |
-|                  |                  | \- ontwerp       | \- fungeren als  |
-|                  |                  | hierop afstemmen | klankbord        |
-|                  |                  |                  |                  |
-|                  |                  |                  | \- advies over   |
-|                  |                  |                  | v                |
-|                  |                  |                  | erwerkingsketens |
-+------------------+------------------+------------------+------------------+
-| **De             | **DMP**          | \- Data          | \- DMP sjabloon  |
-| verschillende    |                  | Management Plan  | aanreiken +      |
-| datastappen in   |                  | (DMP) opmaken    | advies ivm       |
-| de               |                  | waarin aandacht  | gebruik          |
-| onderzoekscyclus |                  | is voor alle     |                  |
-| zijn             |                  | stappen van de   | \- adviseren &   |
-| gedocumenteerd   |                  | onderzoekscyclus | nazien DMP       |
-| in een Data      |                  |                  | m.b.t.:          |
-| Management       |                  | \- aandacht      | datavereisten    |
-| Plan**           |                  | besteden aan de  | (ivm invoer,     |
-|                  |                  | organisatie van  | opslag,          |
-|                  |                  | projectmappen    | analyse),        |
-|                  |                  |                  | metadatering,    |
-|                  |                  | \- de nood       | datastandaarden, |
-|                  |                  | overwegen aan    | ontsluiting van  |
-|                  |                  | dataversionering | data &           |
-|                  |                  | en het traceren  | a                |
-|                  |                  | van datastromen  | nalyseresultaten |
-|                  |                  | in het datamodel |                  |
-|                  |                  |                  | \- advies geven  |
-|                  |                  | \- de            | ivm ontsluiting  |
-|                  |                  | [FAIR]          | van DMP          |
-|                  |                  | ](https://w |                  |
-|                  |                  | ww.go-fair.org/f | \- DMP promoten  |
-|                  |                  | air-principles/) |                  |
-|                  |                  | principes        | \- aanbevelingen |
-|                  |                  | (Findable,       | aanreiken voor   |
-|                  |                  | Accessible,      | de organisatie   |
-|                  |                  | Interoperable,   | van              |
-|                  |                  | Re-usable)       | projectmappen    |
-|                  |                  | nastreven        |                  |
-|                  |                  |                  |                  |
-|                  |                  | \- afweging rond |                  |
-|                  |                  | open data        |                  |
-|                  |                  | publicatie maken |                  |
-|                  |                  |                  |                  |
-|                  |                  | \- gebruik van   |                  |
-|                  |                  | GBIF en Zenodo   |                  |
-|                  |                  | overwegen als    |                  |
-|                  |                  | infrastructuur   |                  |
-|                  |                  | voor "publish    |                  |
-|                  |                  | first (open),    |                  |
-|                  |                  | analyse later"   |                  |
-+------------------+------------------+------------------+------------------+
-| **Revisiestadia  | *                | \- stadia        | \- methodologie  |
-| zijn voorzien    | *Revisiestadia** | voorzien om het  | aanbieden        |
-| (langlopende     |                  | projectontwerp   |                  |
-| cases)**         |                  | (incl. DMP,      | \- fungeren als  |
-|                  |                  | c                | klankbord        |
-|                  |                  | ommunicatieplan) |                  |
-|                  |                  | te evalueren en  |                  |
-|                  |                  | te herwerken     |                  |
-+------------------+------------------+------------------+------------------+
-| **Gege           |                  |                  |                  |
-| vensinzameling** |                  |                  |                  |
-+------------------+------------------+------------------+------------------+
-| **De             | **Protocollen    | \- protocollen   | \-               |
-| ge               | gebruiken**      | hanteren         | p                |
-| gevensinzameling |                  |                  | rotocolsjablonen |
-| verloopt volgens |                  | \- protocollen   | aanreiken        |
-| protocollen**    |                  | opstellen waar   |                  |
-|                  |                  | zij ontbreken    | \- centraliseren |
-|                  |                  |                  | protocollen      |
-|                  |                  | \- terugkoppelen | (platform)       |
-|                  |                  | over             |                  |
-|                  |                  | verbe            | \-               |
-|                  |                  | termogelijkheden | bemonstering     |
-|                  |                  | en knelpunten    | /voorbehandeling |
-|                  |                  | bij het          | ondersteunen,    |
-|                  |                  | toepassen van    | labo-analysen    |
-|                  |                  | protocollen      |                  |
-|                  |                  |                  | \- applicaties   |
-|                  |                  |                  | gegevensinvoer   |
-+------------------+------------------+------------------+------------------+
-| **Automatische   | **Automatische   | \- automatische  | \- ondersteuning |
-| datainzameling   | d                | datainzameling   | bieden bij       |
-| wordt ingezet**  | ata-inzameling** | uitrollen en     | technische       |
-|                  |                  | opvolgen         | aspecten         |
-+------------------+------------------+------------------+------------------+
-| **Bestaande,     | **Bestaande data | \- systemen      | \- overzicht     |
-| bruikbare data   | gebruiken**      | (leren)          | aanbieden en     |
-| (desgevallend    |                  | gebruiken        | gebruik aanleren |
-| monsters) worden |                  |                  | van open data    |
-| benut**          |                  |                  | systemen en      |
-|                  |                  |                  | databases        |
-+------------------+------------------+------------------+------------------+
-| **Val            | **Valideren      | \-               | \- ondersteuning |
-| idatieprocedures | tijdens          | val              | en stimuleren    |
-| tijdens          | d                | idatieprocedures | ke               |
-| ge               | ata-inzameling** | toepassen        | nnisuitwisseling |
-| gevensinzameling |                  |                  | rond validatie   |
-| worden           |                  |                  | in het veld en   |
-| toegepast**      |                  |                  | automatische     |
-|                  |                  |                  | data-captatie    |
-+------------------+------------------+------------------+------------------+
-| **Bij de         | **Meetfout       | \-               | \-               |
-| ge               | kennen**         | meetonzekerheid  | k                |
-| gevensinzameling |                  | bepalen          | waliteitssysteem |
-| is de meetfout   |                  |                  | & accreditatie   |
-| gekend**         |                  | \- desgewenst    | van              |
-|                  |                  | schaduwmeetnet   | labo             |
-|                  |                  | uitrollen        | ratoriummethoden |
-|                  |                  |                  |                  |
-|                  |                  |                  | \- ondersteunen  |
-|                  |                  |                  | accreditatie van |
-|                  |                  |                  | gerelateerde     |
-|                  |                  |                  | (                |
-|                  |                  |                  | terrein)methoden |
-+------------------+------------------+------------------+------------------+
-| **Opslag van     |                  |                  |                  |
-| data**           |                  |                  |                  |
-+------------------+------------------+------------------+------------------+
-| **De data zijn   | **Gepaste        | \- DMP           | \- data          |
-| op een degelijke | data-opslag**    | toepassen:       | aanbieden mbv    |
-| manier           |                  | invoer data,     | robuuste         |
-| opgeslagen en    |                  | metadatering     | datamodellen     |
-| georganiseerd**  |                  |                  |                  |
-|                  |                  | \- DMP hanteren  | \- datamodellen  |
-|                  |                  | om een betere    | documenteren     |
-|                  |                  | organisatie van  |                  |
-|                  |                  | data te          | \- bewaken dat   |
-|                  |                  | realiseren       | de data          |
-|                  |                  |                  | opgeslagen en/of |
-|                  |                  | \- verzorgen van | ontsloten worden |
-|                  |                  | vlotte en        | op een manier    |
-|                  |                  | coherente data   | die snelle       |
-|                  |                  | invoer, volgens  | consultatie en   |
-|                  |                  | geldende         | integratie met   |
-|                  |                  | afspraken        | andere datasets  |
-|                  |                  |                  | toelaat          |
-|                  |                  | \- specifieke    |                  |
-|                  |                  | aandacht         | \- specifieke    |
-|                  |                  | besteden aan het | aandacht         |
-|                  |                  | opslaan van      | besteden aan het |
-|                  |                  | gevoelige,       | opslaan van      |
-|                  |                  | sociale en/of    | gevoelige,       |
-|                  |                  | kwalitatieve     | sociale en/of    |
-|                  |                  | persoonlijke     | kwalitatieve     |
-|                  |                  | data, bewaken    | persoonlijke     |
-|                  |                  | van              | data, bewaken    |
-|                  |                  | ve               | van              |
-|                  |                  | rtrouwelijkheid, | ve               |
-|                  |                  | GDPR             | rtrouwelijkheid, |
-|                  |                  |                  | GDPR             |
-|                  |                  |                  |                  |
-|                  |                  |                  | \- desgewenst    |
-|                  |                  |                  | versionering     |
-|                  |                  |                  | voorzien op      |
-|                  |                  |                  | niveau van de    |
-|                  |                  |                  | databank         |
-+------------------+------------------+------------------+------------------+
-| **Voorbewerking  |                  |                  |                  |
-| van data**       |                  |                  |                  |
-+------------------+------------------+------------------+------------------+
-| **De data worden | **Data           | \-               | \-               |
-| op een           | valideren**      | validatieregels  | v                |
-| herhaalbare      |                  | opstellen (incl. | alidatiemethoden |
-| manier           |                  | validatie in het | aanreiken        |
-| gevalideerd**    |                  | veld - zie ook   |                  |
-|                  |                  | bij              | \- ondersteuning |
-|                  |                  | Geg              | bij opstellen    |
-|                  |                  | evensinzameling) | validatieregels  |
-|                  |                  |                  |                  |
-|                  |                  | \- nakijken van  | \-               |
-|                  |                  | anomalieën       | validatieregels  |
-|                  |                  |                  | implementeren    |
-|                  |                  |                  | binnen           |
-|                  |                  |                  | datasystemen en  |
-|                  |                  |                  | GIS-data         |
-|                  |                  |                  |                  |
-|                  |                  |                  | \-               |
-|                  |                  |                  | pr               |
-|                  |                  |                  | estatiekenmerken |
-|                  |                  |                  | labo-analysen    |
-|                  |                  |                  | aanreiken        |
-+------------------+------------------+------------------+------------------+
-| **De             | *                | \- data bewerken | \- opleiding en  |
-| voorbewerking    | *Reproduceerbaar | via              | ondersteuning    |
-| van data gebeurt | voorbewerken**   | reproduceerbare  | rond gescripte   |
-| r                |                  | scripts          | databewerking    |
-| eproduceerbaar** |                  |                  |                  |
-|                  |                  | \- bijleren over | \- advies        |
-|                  |                  | een gescripte    | omtrent          |
-|                  |                  | data-workflow    | bestands- &      |
-|                  |                  |                  | mappenbeheer     |
-+------------------+------------------+------------------+------------------+
-| **Analyse**      |                  |                  |                  |
-+------------------+------------------+------------------+------------------+
-| **Er gebeurt een | **Data           | \- kritische     | \- opleiding     |
-| degelijke        | exploreren**     | dataverkenning   | geven ivm        |
-| d                |                  | vóór analyse     | data-exploratie  |
-| ata-exploratie** |                  |                  |                  |
-+------------------+------------------+------------------+------------------+
-| **De analyse is  | **Gepast         | \- analyse       | \- opleiding     |
-| adequaat en      | analyseren**     | uitvoeren ifv    | geven & helpdesk |
-| correct**        |                  | vraagstelling    | aanbieden        |
-|                  |                  |                  |                  |
-|                  |                  | \- resultaten    | \- meer          |
-|                  |                  | kritisch         | geavanceerde     |
-|                  |                  | beoordelen       | analyses doen    |
-|                  |                  |                  |                  |
-|                  |                  | \- validatie     |                  |
-|                  |                  | (peer review)    |                  |
-|                  |                  | van de analyse   |                  |
-+------------------+------------------+------------------+------------------+
-| **De             | *                | \- gescripte,    | \- opleiding     |
-| analyseworkflow  | *Reproduceerbaar | gedocumenteerde  | geven & helpdesk |
-| is open en       | analyseren**     | workflow         | aanbieden        |
-| r                |                  | toepassen        |                  |
-| eproduceerbaar** |                  |                  |                  |
-|                  |                  | \- maximaal      |                  |
-|                  |                  | open-source      |                  |
-|                  |                  | tools gebruiken  |                  |
-+------------------+------------------+------------------+------------------+
-| **Versies van de | **Versiebeheer** | \- versiebeheer  | \- opleiding     |
-| gebruikte data,  |                  | (leren)          | geven & helpdesk |
-| broncode en      |                  | gebruiken        | aanbieden        |
-| analyse worden   |                  |                  |                  |
-| bijgehouden**    |                  | \- data,         |                  |
-|                  |                  | d                |                  |
-|                  |                  | atavoorbewerking |                  |
-|                  |                  | & analyse        |                  |
-|                  |                  | versioneren      |                  |
-|                  |                  |                  |                  |
-|                  |                  | \- versie van    |                  |
-|                  |                  | data en scripts  |                  |
-|                  |                  | refereren        |                  |
-|                  |                  |                  |                  |
-|                  |                  | \- software      |                  |
-|                  |                  | versioneren      |                  |
-|                  |                  | (Docker)         |                  |
-|                  |                  |                  |                  |
-|                  |                  | \- digitaal      |                  |
-|                  |                  | samenwerken en   |                  |
-|                  |                  | reviewing doen   |                  |
-|                  |                  | in               |                  |
-|                  |                  | vers             |                  |
-|                  |                  | iebeheersystemen |                  |
-+------------------+------------------+------------------+------------------+
-| **Publicatie &   |                  |                  |                  |
-| delen**          |                  |                  |                  |
-+------------------+------------------+------------------+------------------+
-| **De resultaten  | **Gepast         | \- relevante     | \- aanreiken     |
-| worden besproken | interpreteren**  | informatie       | nodige bronnen   |
-| in functie van   |                  | betrekken in     |                  |
-| de vraagstelling |                  | bespreking van   | \- ondersteuning |
-| en in de context |                  | a                | bieden bij       |
-| van andere       |                  | nalyseresultaten | gebruik          |
-| relevante        |                  |                  | bibli            |
-| informatie**     |                  |                  | otheekdatabanken |
-|                  |                  |                  | en               |
-|                  |                  |                  | referenti        |
-|                  |                  |                  | ebeheerssystemen |
-+------------------+------------------+------------------+------------------+
-| **De data zijn   | **Open data**    | \- publiceren    | \- advies over   |
-| open**           |                  | van de data      | keuze van        |
-|                  |                  |                  | dataformaat,     |
-|                  |                  |                  | documentatie en  |
-|                  |                  |                  | platform         |
-|                  |                  |                  |                  |
-|                  |                  |                  | \- verzorgen van |
-|                  |                  |                  | koppeling data,  |
-|                  |                  |                  | publicaties en   |
-|                  |                  |                  | projecten        |
-+------------------+------------------+------------------+------------------+
-| **De FAIR        | **FAIR           | \- implementeren | \- zorgen voor   |
-| principes        | principes**      | van              | vlotte           |
-| (Findable,       |                  | [FAIR]          | toegankelijkheid |
-| Accessible,      |                  | ](https://w | en vindbaarheid  |
-| Interoperable,   |                  | ww.go-fair.org/f | door juiste open |
-| Re-usable)       |                  | air-principles/) | data platformen  |
-| worden           |                  | principes        | te kiezen,       |
-| toegepast**      |                  |                  | opzetten van     |
-|                  |                  |                  | overzicht /      |
-|                  |                  |                  | datawarehouses / |
-|                  |                  |                  | centrale         |
-|                  |                  |                  | databank /       |
-|                  |                  |                  | gegevensportaal  |
-+------------------+------------------+------------------+------------------+
-| **De broncode is | **Open           | \- finale versie | \- technisch     |
-| open**           | broncode**       | van broncode en  | advies geven     |
-|                  |                  | documentatie     | over publiek     |
-|                  |                  | publiek          | beschikbaar      |
-|                  |                  | beschikbaar      | maken van        |
-|                  |                  | stellen          | broncode         |
-|                  |                  |                  |                  |
-|                  |                  | \- toepassen van | \- beheren van   |
-|                  |                  | richtlijnen rond | richtlijnen rond |
-|                  |                  | het beschikbaar  | het beschikbaar  |
-|                  |                  | maken van        | maken van        |
-|                  |                  | broncode         | broncode (o.a.   |
-|                  |                  |                  | licensing)       |
-+------------------+------------------+------------------+------------------+
-| **De protocollen | **Open           | \- aanleveren    | \- online        |
-| zijn open**      | protocollen**    | van protocollen  | ontsluiten       |
-|                  |                  | in open formaat  | veldprotocollen  |
-|                  |                  |                  |                  |
-|                  |                  |                  | \- uitwerken van |
-|                  |                  |                  | formaat voor     |
-|                  |                  |                  | protocollen      |
-|                  |                  |                  |                  |
-|                  |                  |                  | \- opleiding     |
-|                  |                  |                  | aanbieden voor   |
-|                  |                  |                  | opstellen van    |
-|                  |                  |                  | protocollen      |
-+------------------+------------------+------------------+------------------+
-| **De publicaties | **Open           | \- ter           | \- begeleiden en |
-| zijn open**      | publicaties**    | beschikking      | ondersteunen bij |
-|                  |                  | stellen van      | nieuwe vormen    |
-|                  |                  | outputs aan BIB  | van publiceren   |
-|                  |                  | en invoer        |                  |
-|                  |                  | metadata         | \- uitbreiden    |
-|                  |                  |                  | kanalen voor     |
-|                  |                  |                  | verspreiding     |
-|                  |                  |                  | outputs          |
-|                  |                  |                  |                  |
-|                  |                  |                  | \- ondersteuning |
-|                  |                  |                  | bieden bij       |
-|                  |                  |                  | publicatie       |
-|                  |                  |                  | geografische     |
-|                  |                  |                  | data             |
-+------------------+------------------+------------------+------------------+
-| **Er wordt in de | **Outputs        | \- verwijzen     | \- opnemen van   |
-| publicaties naar | citeren**        | naar             | DOI's in         |
-| de verschillende |                  | gerelateerde     | CRIS-systeem     |
-| outputs          |                  | outputs zoals    | (Current         |
-| gerefereerd**    |                  | dataset, data    | Research         |
-|                  |                  | paper,           | Information      |
-|                  |                  | gepubliceerd     | System e.g.      |
-|                  |                  | protocol,        | [PURE]          |
-|                  |                  | broncode, etc.   | ](https://w |
-|                  |                  | door vermelding  | ww.elsevier.com/ |
-|                  |                  | van een digital  | solutions/pure)) |
-|                  |                  | object           |                  |
-|                  |                  | identifier (DOI) |                  |
-|                  |                  |                  |                  |
-|                  |                  | \- aanmaken van  |                  |
-|                  |                  | ORCID iD, ORCID  |                  |
-|                  |                  | iD vermelden in  |                  |
-|                  |                  | metadata output  |                  |
-|                  |                  | (contact         |                  |
-|                  |                  | informatie,      |                  |
-|                  |                  | auteurslijst,    |                  |
-|                  |                  | etc.)            |                  |
-+------------------+------------------+------------------+------------------+
-| **De publicaties | **Kwalitatieve   | \- volgen van    | \- aanbieden van |
-| worden           | vormgeving**     | procedures in    | sjablonen voor   |
-| kwaliteitsvol    |                  | lay-out proces   | documenten,      |
-| vormgegeven**    |                  |                  | RMarkdown,       |
-|                  |                  |                  | grafieken,       |
-|                  |                  |                  | citatiestijl     |
-|                  |                  |                  |                  |
-|                  |                  |                  | \- afleveren van |
-|                  |                  |                  | kwaliteitsvol    |
-|                  |                  |                  | vormgegeven      |
-|                  |                  |                  | publicaties      |
-|                  |                  |                  |                  |
-|                  |                  |                  | \- uitbouw en    |
-|                  |                  |                  | beheer           |
-|                  |                  |                  | fotobibliotheek  |
-+------------------+------------------+------------------+------------------+
-| **Er wordt over  | **Methoden       | \- communiceren  | \- fungeren als  |
-| de outputs en    | communiceren**   | rond toegepaste  | klankbord        |
-| daarbij          |                  | methoden         |                  |
-| gebruikte (Open  |                  |                  |                  |
-| Science)         |                  |                  |                  |
-| methoden         |                  |                  |                  |
-| gecommuniceerd** |                  |                  |                  |
-+------------------+------------------+------------------+------------------+
-| **Archivering**  |                  |                  |                  |
-+------------------+------------------+------------------+------------------+
-| **Alle           | **Documenten a   | \- officiële     | \- uitwerken van |
-| afgewerkte en    | rchiveren**      | documenten       | beleid rond      |
-| gebruikte        |                  | bezorgen aan     | archivering      |
-| documenten       |                  | v                |                  |
-| worden duurzaam  |                  | erantwoordelijke | \- voorzien van  |
-| bewaard en       |                  | dienst           | duurzame opslag  |
-| efficiënt        |                  |                  | en digitale      |
-| ontsloten**      |                  | \- relevante     | bewaring van     |
-|                  |                  | p                | informatie       |
-|                  |                  | rojectdocumenten |                  |
-|                  |                  | bezorgen         | \- opstellen en  |
-|                  |                  |                  | opvolgen van een |
-|                  |                  |                  | Infor            |
-|                  |                  |                  | matiebeheersplan |
-|                  |                  |                  | en               |
-|                  |                  |                  | selectielijsten  |
-|                  |                  |                  |                  |
-|                  |                  |                  | \- deponeren van |
-|                  |                  |                  | documenten bij   |
-|                  |                  |                  | relevante        |
-|                  |                  |                  | instanties       |
-|                  |                  |                  |                  |
-|                  |                  |                  | \- opzetten van  |
-|                  |                  |                  | o                |
-|                  |                  |                  | nderzoeksarchief |
-+------------------+------------------+------------------+------------------+
-| **Data worden    | **Data           | \- toepassen van | \- aanbieden van |
-| gearchiveerd**   | archiveren**     | richtlijnen rond | richtlijnen en   |
-|                  |                  | archivering van  | ondersteuning    |
-|                  |                  | data             | voor             |
-|                  |                  |                  | data             |
-|                  |                  |                  | bank-archivering |
-+------------------+------------------+------------------+------------------+
-| **Stalen worden  | **Stalen         | \- archiveren    | \- ondersteuning |
-| gearchiveerd**   | archiveren**     | van vaste        | bieden bij       |
-|                  |                  | monsters voor    | archivering      |
-|                  |                  | latere analyse   | vaste monsters   |
-|                  |                  |                  |                  |
-|                  |                  |                  | \- verkennen     |
-|                  |                  |                  | mogelijke        |
-|                  |                  |                  | samenwerking met |
-|                  |                  |                  | externe partners |
-|                  |                  |                  | voor het         |
-|                  |                  |                  | kwaliteitsvol    |
-|                  |                  |                  | archiveren van   |
-|                  |                  |                  | stalen           |
-+------------------+------------------+------------------+------------------+
-| **Protocollen    | **Protocollen    | \- toepassen van | \- aanbieden van |
-| worden           | archiveren**     | richtlijnen rond | richtlijnen en   |
-| gearchiveerd**   |                  | archivering van  | ondersteuning    |
-|                  |                  | protocollen      | voor archivering |
-|                  |                  |                  | van protocollen  |
-+------------------+------------------+------------------+------------------+
-| **Broncode wordt | **Broncode       | \- toepassen van | \- aanbieden van |
-| gearchiveerd**   | archiveren**     | richtlijnen rond | richtlijnen en   |
-|                  |                  | archivering van  | ondersteuning    |
-|                  |                  | broncode         | voor archivering |
-|                  |                  |                  | van broncode     |
-+------------------+------------------+------------------+------------------+
-| **Hergebruik     |                  |                  |                  |
-| stimuleren**     |                  |                  |                  |
-+------------------+------------------+------------------+------------------+
-| **Intern en      | **Hergebruik     | \- beschikbare   | \- ondersteuning |
-| extern           | stimuleren**     | relevante        | en advies geven  |
-| hergebruik       |                  | informatie, data | rond het zoeken  |
-| krijgt alle      |                  | of broncode      | naar publiek     |
-| kansen**         |                  | opsporen         | beschikbare      |
-|                  |                  |                  | informatie,      |
-|                  |                  | \- outputs van   | data, broncode   |
-|                  |                  | metadata         |                  |
-|                  |                  | voorzien met oog | \- ondersteuning |
-|                  |                  | op verhogen van  | geven bij        |
-|                  |                  | vindbaarheid     | metadatering en  |
-|                  |                  |                  | ontsluiten van   |
-|                  |                  |                  | outputs          |
-+------------------+------------------+------------------+------------------+
+
+
++----------------------+----------------------+------------------------------------------+------------------------------------------+
+| OSD                  | Label                | Rol van de uitvoerder (op alle teams van | Rol van de begeleider (vaak, maar niet   |
+|                      |                      | toepassing)                              | uitsluitend: methodologische teams)      |
++======================+======================+==========================================+==========================================+
+| **ONTWERP**          |                      |                                          |                                          |
++----------------------+----------------------+------------------------------------------+------------------------------------------+
+| De vraagstelling     | Relevante vraag      | - problematiek en vraagstelling in       | - aanbieden opleiding/methodologie       |
+| beantwoordt een      |                      | breder maatschappelijk kader plaatsen    | m.b.t. soft system thinking              |
+| maatschappelijke     |                      | - inzicht verwerven in het relevante     | (socio-ecologisch systeemdenken),        |
+| en/of                |                      | socio-ecologisch systeem                 | vraaganalyse, aanbodanalyse              |
+| beleidsrelevante     |                      | - vraagstelling motiveren o.b.v. analyse | - klankbordfunctie                       |
+| informatiebehoefte   |                      | van informatiebehoefte en bestaand       | - bronnen (literatuur e.a.) beheren /    |
+|                      |                      | aanbod                                   | ontsluiten                               |
+|                      |                      | - ook motiveren wat niet is opgenomen    | - (+ rol managementteam: toetst          |
+|                      |                      | - de motivatie, de vraag, en het proces  | relevantie)                              |
+|                      |                      | daartoe raadpleegbaar maken              |                                          |
++----------------------+----------------------+------------------------------------------+------------------------------------------+
+| De outputs en wijze  | Communicatieplan     | - afspraken maken met partners en        | - klankbordfunctie                       |
+| van communiceren     |                      | stakeholders over output en communicatie | - ondersteunen communicatiestrategie     |
+| zijn vooraf          |                      | - dubbelchecken of de relevante          |                                          |
+| gedocumenteerd in    |                      | doelgroep(en) betrokken worden in de     |                                          |
+| een                  |                      | behoefte-analyse (zie motivatie          |                                          |
+| communicatieplan,    |                      | vraagstelling in OSD ‘relevantie voor    |                                          |
+| gedragen door        |                      | maatschappij en beleid’)                 |                                          |
+| stakeholders         |                      | - per output documenteren: doelgroep,    |                                          |
+|                      |                      | type output en timing van communiceren   |                                          |
++----------------------+----------------------+------------------------------------------+------------------------------------------+
+| De vraagstelling is  | Scherpe              | - vraag meetbaar / toetsbaar formuleren  | - ondersteuning bieden                   |
+| scherp en helder     | vraagstelling        | - gewenste informatiekwaliteit           | - klankbordfunctie                       |
+| geformuleerd         |                      | (kwantitatief) uitdrukken (minimum te    |                                          |
+|                      |                      | detecteren effect,                       |                                          |
+|                      |                      | betrouwbaarheidsniveau, power)           |                                          |
+|                      |                      | - literatuurstudie gebruiken             |                                          |
++----------------------+----------------------+------------------------------------------+------------------------------------------+
+| De onderzoeksopzet   | Opzet ikv            | - opzet maken die effectief een antwoord | - afweging methoden ondersteunen         |
+| is afgestemd op de   | vraagstelling        | geeft op vraag                           | - ondersteunen protocollen               |
+| vraagstelling en     |                      | - geschikte meettechnieken bepalen       | - klankbordfunctie                       |
+| gedocumenteerd       |                      | - maximaal overwegen van automatische    | - vuistregels steekproefgrootte          |
+|                      |                      | data-captatie                            | aanbieden                                |
+|                      |                      | - protocollen selecteren of opstellen    | - kosten helpen begroten                 |
+|                      |                      | - grootteorde in ruimte (locaties) en    | - ondersteunen / stimuleren              |
+|                      |                      | tijd (frequentie) opgeven                | kennisuitwisseling rond validatie in het |
+|                      |                      | (steekproefgrootte)                      | veld en automatische data-captatie       |
+|                      |                      | - looptijd bepalen                       |                                          |
+|                      |                      | - schaduwmeetnet overwegen om beter idee |                                          |
+|                      |                      | te krijgen van de meetfout               |                                          |
+|                      |                      | - kosteneffectiviteit optimaliseren en   |                                          |
+|                      |                      | terugkoppelen met opdrachtgever /        |                                          |
+|                      |                      | stakeholders (budgetten)                 |                                          |
+|                      |                      | - analyse-werkwijze concretiseren        |                                          |
+|                      |                      | - bestuderen van mogelijkheden tot       |                                          |
+|                      |                      | validatie                                |                                          |
+|                      |                      | - documenteren van alle gemaakte keuzes  |                                          |
+|                      |                      | in de onderzoeksopzet (zie ook DMP voor  |                                          |
+|                      |                      | de datagerelateerde elementen)           |                                          |
++----------------------+----------------------+------------------------------------------+------------------------------------------+
+| De onderzoeksopzet   | Opzet ikv outputs    | - een concrete voorafspiegeling maken    | - ondersteunen bij het toepassen van de  |
+| is afgestemd op de   |                      | van het type uitkomsten in elke output   | leidraad voor ontwerp                    |
+| weer te geven        |                      | - ontwerp hierop afstemmen               | - fungeren als klankbord                 |
+| onderzoeksresultaten |                      |                                          | - advies over verwerkingsketens          |
++----------------------+----------------------+------------------------------------------+------------------------------------------+
+| De verschillende     | DMP                  | - Data Management Plan (DMP) opmaken     | - DMP sjabloon aanreiken + advies ivm    |
+| datastappen in de    |                      | waarin aandacht is voor alle stappen van | gebruik                                  |
+| onderzoekscyclus     |                      | de onderzoekscyclus                      | - adviseren & nazien DMP m.b.t.:         |
+| zijn gedocumenteerd  |                      | - aandacht besteden aan de organisatie   | datavereisten (ivm invoer, opslag,       |
+| in een Data          |                      | van projectmappen                        | analyse), metadatering, datastandaarden, |
+| Management Plan      |                      | - de nood overwegen aan dataversionering | ontsluiting van data & analyseresultaten |
+|                      |                      | en het traceren van datastromen in het   | - advies geven ivm ontsluiting van DMP   |
+|                      |                      | datamodel                                | - DMP promoten                           |
+|                      |                      | - de FAIR principes (Findable,           | - aanbevelingen aanreiken voor de        |
+|                      |                      | Accessible, Interoperable, Re-usable)    | organisatie van projectmappen            |
+|                      |                      | nastreven                                |                                          |
+|                      |                      | - afweging rond open data publicatie     |                                          |
+|                      |                      | maken                                    |                                          |
+|                      |                      | - gebruik van GBIF en Zenodo overwegen   |                                          |
+|                      |                      | als infrastructuur voor “publish first   |                                          |
+|                      |                      | (open), analyse later”                   |                                          |
++----------------------+----------------------+------------------------------------------+------------------------------------------+
+| Revisiestadia zijn   | Revisiestadia        | - stadia voorzien om het projectontwerp  | - methodologie aanbieden                 |
+| voorzien             |                      | (incl. DMP, communicatieplan) te         | - fungeren als klankbord                 |
+| (langlopende cases)  |                      | evalueren en te herwerken                |                                          |
++----------------------+----------------------+------------------------------------------+------------------------------------------+
+|**GEGEVENSINZAMELING**|                      |                                          |                                          |
++----------------------+----------------------+------------------------------------------+------------------------------------------+
+| De                   | Protocollen          | - protocollen hanteren                   | - protocolsjablonen aanreiken            |
+| gegevensinzameling   | gebruiken            | - protocollen opstellen waar zij         | - centraliseren protocollen (platform)   |
+| verloopt volgens     |                      | ontbreken                                | - bemonstering/voorbehandeling           |
+| protocollen          |                      | - terugkoppelen over                     | ondersteunen, labo-analysen              |
+|                      |                      | verbetermogelijkheden en knelpunten bij  | - applicaties gegevensinvoer             |
+|                      |                      | het toepassen van protocollen            |                                          |
++----------------------+----------------------+------------------------------------------+------------------------------------------+
+| Automatische         | Automatische         | - automatische datainzameling uitrollen  | - ondersteuning bieden bij technische    |
+| datainzameling wordt | data-inzameling      | en opvolgen                              | aspecten                                 |
+| ingezet              |                      |                                          |                                          |
++----------------------+----------------------+------------------------------------------+------------------------------------------+
+| Bestaande, bruikbare | Bestaande data       | - systemen (leren) gebruiken             | - overzicht aanbieden en gebruik         |
+| data (desgevallend   | gebruiken            |                                          | aanleren van open data systemen en       |
+| monsters) worden     |                      |                                          | databases                                |
+| benut                |                      |                                          |                                          |
++----------------------+----------------------+------------------------------------------+------------------------------------------+
+| Validatieprocedures  | Valideren tijdens    | - validatieprocedures toepassen          | - ondersteuning en stimuleren            |
+| tijdens              | data-inzameling      |                                          | kennisuitwisseling rond validatie in het |
+| gegevensinzameling   |                      |                                          | veld en automatische data-captatie       |
+| worden toegepast     |                      |                                          |                                          |
++----------------------+----------------------+------------------------------------------+------------------------------------------+
+| Bij de               | Meetfout kennen      | - meetonzekerheid bepalen                | - kwaliteitssysteem & accreditatie van   |
+| gegevensinzameling   |                      | - desgewenst schaduwmeetnet uitrollen    | laboratoriummethoden                     |
+| is de meetfout       |                      |                                          | - ondersteunen accreditatie van          |
+| gekend               |                      |                                          | gerelateerde (terrein)methoden           |
++----------------------+----------------------+------------------------------------------+------------------------------------------+
+| **OPSLAG VAN DATA**  |                      |                                          |                                          |
++----------------------+----------------------+------------------------------------------+------------------------------------------+
+| De data zijn op een  | Gepaste data-opslag  | - DMP toepassen: invoer data,            | - data aanbieden mbv robuuste            |
+| degelijke manier     |                      | metadatering                             | datamodellen                             |
+| opgeslagen en        |                      | - DMP hanteren om een betere organisatie | - datamodellen documenteren              |
+| georganiseerd        |                      | van data te realiseren                   | - bewaken dat de data opgeslagen en/of   |
+|                      |                      | - verzorgen van vlotte en coherente data | ontsloten worden op een manier die       |
+|                      |                      | invoer, volgens geldende afspraken       | snelle consultatie en integratie met     |
+|                      |                      | - specifieke aandacht besteden aan het   | andere datasets toelaat                  |
+|                      |                      | opslaan van gevoelige, sociale en/of     | - specifieke aandacht besteden aan het   |
+|                      |                      | kwalitatieve persoonlijke data, bewaken  | opslaan van gevoelige, sociale en/of     |
+|                      |                      | van vertrouwelijkheid, GDPR              | kwalitatieve persoonlijke data, bewaken  |
+|                      |                      |                                          | van vertrouwelijkheid, GDPR              |
+|                      |                      |                                          | - desgewenst versionering voorzien op    |
+|                      |                      |                                          | niveau van de databank                   |
++----------------------+----------------------+------------------------------------------+------------------------------------------+
+| **VOORBEWERKING VAN  |                      |                                          |                                          |
+| DATA**               |                      |                                          |                                          |
++----------------------+----------------------+------------------------------------------+------------------------------------------+
+| De data worden op    | Data valideren       | - validatieregels opstellen (incl.       | - validatiemethoden aanreiken            |
+| een herhaalbare      |                      | validatie in het veld - zie ook bij      | - ondersteuning bij opstellen            |
+| manier gevalideerd   |                      | Gegevensinzameling)                      | validatieregels                          |
+|                      |                      | - nakijken van anomalieën                | - validatieregels implementeren binnen   |
+|                      |                      |                                          | datasystemen en GIS-data                 |
+|                      |                      |                                          | - prestatiekenmerken labo-analysen       |
+|                      |                      |                                          | aanreiken                                |
++----------------------+----------------------+------------------------------------------+------------------------------------------+
+| De voorbewerking van | Reproduceerbaar      | - data bewerken via reproduceerbare      | - opleiding en ondersteuning rond        |
+| data gebeurt         | voorbewerken         | scripts                                  | gescripte databewerking                  |
+| reproduceerbaar      |                      | - bijleren over een gescripte            | - advies omtrent bestands- &             |
+|                      |                      | data-workflow                            | mappenbeheer                             |
++----------------------+----------------------+------------------------------------------+------------------------------------------+
+| **ANALYSE**          |                      |                                          |                                          |
++----------------------+----------------------+------------------------------------------+------------------------------------------+
+| Er gebeurt een       | Data exploreren      | - kritische dataverkenning vóór analyse  | - opleiding geven ivm data-exploratie    |
+| degelijke            |                      |                                          |                                          |
+| data-exploratie      |                      |                                          |                                          |
++----------------------+----------------------+------------------------------------------+------------------------------------------+
+| De analyse is        | Gepast analyseren    | - analyse uitvoeren ifv vraagstelling    | - opleiding geven & helpdesk aanbieden   |
+| adequaat en correct  |                      | - resultaten kritisch beoordelen         | - meer geavanceerde analyses doen        |
+|                      |                      | - validatie (peer review) van de analyse |                                          |
++----------------------+----------------------+------------------------------------------+------------------------------------------+
+| De analyseworkflow   | Reproduceerbaar      | - gescripte, gedocumenteerde workflow    | - opleiding geven & helpdesk aanbieden   |
+| is open en           | analyseren           | toepassen                                |                                          |
+| reproduceerbaar      |                      | - maximaal open-source tools gebruiken   |                                          |
++----------------------+----------------------+------------------------------------------+------------------------------------------+
+| Versies van de       | Versiebeheer         | - versiebeheer (leren) gebruiken         | - opleiding geven & helpdesk aanbieden   |
+| gebruikte data,      |                      | - data, datavoorbewerking & analyse      |                                          |
+| broncode en analyse  |                      | versioneren                              |                                          |
+| worden bijgehouden   |                      | - versie van data en scripts refereren   |                                          |
+|                      |                      | - software versioneren (Docker)          |                                          |
+|                      |                      | - digitaal samenwerken en reviewing doen |                                          |
+|                      |                      | in versiebeheersystemen                  |                                          |
++----------------------+----------------------+------------------------------------------+------------------------------------------+
+|**PUBLICATIE & DELEN**|                      |                                          |                                          |
++----------------------+----------------------+------------------------------------------+------------------------------------------+
+| De resultaten worden | Gepast interpreteren | - relevante informatie betrekken in      | - aanreiken nodige bronnen               |
+| besproken in functie |                      | bespreking van analyseresultaten         | - ondersteuning bieden bij gebruik       |
+| van de vraagstelling |                      |                                          | bibliotheekdatabanken en                 |
+| en in de context van |                      |                                          | referentiebeheerssystemen                |
+| andere relevante     |                      |                                          |                                          |
+| informatie           |                      |                                          |                                          |
++----------------------+----------------------+------------------------------------------+------------------------------------------+
+| De data zijn open    | Open data            | - publiceren van de data                 | - advies over keuze van dataformaat,     |
+|                      |                      |                                          | documentatie en platform                 |
+|                      |                      |                                          | - verzorgen van koppeling data,          |
+|                      |                      |                                          | publicaties en projecten                 |
++----------------------+----------------------+------------------------------------------+------------------------------------------+
+| De FAIR principes    | FAIR principes       | - implementeren van FAIR principes       | - zorgen voor vlotte toegankelijkheid en |
+| (Findable,           |                      |                                          | vindbaarheid door juiste open data       |
+| Accessible,          |                      |                                          | platformen te kiezen, opzetten van       |
+| Interoperable,       |                      |                                          | overzicht / datawarehouses / centrale    |
+| Re-usable) worden    |                      |                                          | databank / gegevensportaal               |
+| toegepast            |                      |                                          |                                          |
++----------------------+----------------------+------------------------------------------+------------------------------------------+
+| De broncode is open  | Open broncode        | - finale versie van broncode en          | - technisch advies geven over publiek    |
+|                      |                      | documentatie publiek beschikbaar stellen | beschikbaar maken van broncode           |
+|                      |                      | - toepassen van richtlijnen rond het     | - beheren van richtlijnen rond het       |
+|                      |                      | beschikbaar maken van broncode           | beschikbaar maken van broncode (o.a.     |
+|                      |                      |                                          | licensing)                               |
++----------------------+----------------------+------------------------------------------+------------------------------------------+
+| De protocollen zijn  | Open protocollen     | - aanleveren van protocollen in open     | - online ontsluiten veldprotocollen      |
+| open                 |                      | formaat                                  | - uitwerken van formaat voor protocollen |
+|                      |                      |                                          | - opleiding aanbieden voor opstellen van |
+|                      |                      |                                          | protocollen                              |
++----------------------+----------------------+------------------------------------------+------------------------------------------+
+| De publicaties zijn  | Open publicaties     | - ter beschikking stellen van outputs    | - begeleiden en ondersteunen bij nieuwe  |
+| open                 |                      | aan BIB en invoer metadata               | vormen van publiceren                    |
+|                      |                      |                                          | - uitbreiden kanalen voor verspreiding   |
+|                      |                      |                                          | outputs                                  |
+|                      |                      |                                          | - ondersteuning bieden bij publicatie    |
+|                      |                      |                                          | geografische data                        |
++----------------------+----------------------+------------------------------------------+------------------------------------------+
+| Er wordt in de       | Outputs citeren      | - verwijzen naar gerelateerde outputs    | - opnemen van DOI’s in CRIS-systeem      |
+| publicaties naar de  |                      | zoals dataset, data paper, gepubliceerd  | (Current Research Information System     |
+| verschillende        |                      | protocol, broncode, etc. door vermelding | e.g. PURE)                               |
+| outputs gerefereerd  |                      | van een digital object identifier (DOI)  |                                          |
+|                      |                      | - aanmaken van ORCID iD, ORCID iD        |                                          |
+|                      |                      | vermelden in metadata output (contact    |                                          |
+|                      |                      | informatie, auteurslijst, etc.)          |                                          |
++----------------------+----------------------+------------------------------------------+------------------------------------------+
+| De publicaties       | Kwalitatieve         | - volgen van procedures in lay-out       | - aanbieden van sjablonen voor           |
+| worden kwaliteitsvol | vormgeving           | proces                                   | documenten, RMarkdown, grafieken,        |
+| vormgegeven          |                      |                                          | citatiestijl                             |
+|                      |                      |                                          | - afleveren van kwaliteitsvol            |
+|                      |                      |                                          | vormgegeven publicaties                  |
+|                      |                      |                                          | - uitbouw en beheer fotobibliotheek      |
++----------------------+----------------------+------------------------------------------+------------------------------------------+
+| Er wordt over de     | Methoden             | - communiceren rond toegepaste methoden  | - fungeren als klankbord                 |
+| outputs en daarbij   | communiceren         |                                          |                                          |
+| gebruikte (Open      |                      |                                          |                                          |
+| Science) methoden    |                      |                                          |                                          |
+| gecommuniceerd       |                      |                                          |                                          |
++----------------------+----------------------+------------------------------------------+------------------------------------------+
+| **ARCHIVERING**      |                      |                                          |                                          |
++----------------------+----------------------+------------------------------------------+------------------------------------------+
+| Alle afgewerkte en   | Documenten a         | - officiële documenten bezorgen aan      | - uitwerken van beleid rond archivering  |
+| gebruikte documenten | rchiveren            | verantwoordelijke dienst                 | - voorzien van duurzame opslag en        |
+| worden duurzaam      |                      | - relevante projectdocumenten bezorgen   | digitale bewaring van informatie         |
+| bewaard en efficiënt |                      |                                          | - opstellen en opvolgen van een          |
+| ontsloten            |                      |                                          | Informatiebeheersplan en selectielijsten |
+|                      |                      |                                          | - deponeren van documenten bij relevante |
+|                      |                      |                                          | instanties                               |
+|                      |                      |                                          | - opzetten van onderzoeksarchief         |
++----------------------+----------------------+------------------------------------------+------------------------------------------+
+| Data worden          | Data archiveren      | - toepassen van richtlijnen rond         | - aanbieden van richtlijnen en           |
+| gearchiveerd         |                      | archivering van data                     | ondersteuning voor databank-archivering  |
++----------------------+----------------------+------------------------------------------+------------------------------------------+
+| Stalen worden        | Stalen archiveren    | - archiveren van vaste monsters voor     | - ondersteuning bieden bij archivering   |
+| gearchiveerd         |                      | latere analyse                           | vaste monsters                           |
+|                      |                      |                                          | - verkennen mogelijke samenwerking met   |
+|                      |                      |                                          | externe partners voor het kwaliteitsvol  |
+|                      |                      |                                          | archiveren van stalen                    |
++----------------------+----------------------+------------------------------------------+------------------------------------------+
+| Protocollen worden   | Protocollen          | - toepassen van richtlijnen rond         | - aanbieden van richtlijnen en           |
+| gearchiveerd         | archiveren           | archivering van protocollen              | ondersteuning voor archivering van       |
+|                      |                      |                                          | protocollen                              |
++----------------------+----------------------+------------------------------------------+------------------------------------------+
+| Broncode wordt       | Broncode archiveren  | - toepassen van richtlijnen rond         | - aanbieden van richtlijnen en           |
+| gearchiveerd         |                      | archivering van broncode                 | ondersteuning voor archivering van       |
+|                      |                      |                                          | broncode                                 |
++----------------------+----------------------+------------------------------------------+------------------------------------------+
+| **HERGEBRUIK         |                      |                                          |                                          |
+| STIMULEREN**         |                      |                                          |                                          |
++----------------------+----------------------+------------------------------------------+------------------------------------------+
+| Intern en extern     | Hergebruik           | - beschikbare relevante informatie, data | - ondersteuning en advies geven rond het |
+| hergebruik krijgt    | stimuleren           | of broncode opsporen                     | zoeken naar publiek beschikbare          |
+| alle kansen          |                      | - outputs van metadata voorzien met oog  | informatie, data, broncode               |
+|                      |                      | op verhogen van vindbaarheid             | - ondersteuning geven bij metadatering   |
+|                      |                      |                                          | en ontsluiten van outputs                |
++----------------------+----------------------+------------------------------------------+------------------------------------------+
+
+Table: (\#tab:overzicht)Overzicht van de Open Science Doelen voor projecten.
 
 \elandscape
 

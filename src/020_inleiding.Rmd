@@ -106,7 +106,7 @@ ontwikkeld (zie paragraaf \@ref(aanpak)).
     (KMSKA) en het Waterbouwkundig Laboratorium (WL).
     
 [^FAIR]: FAIR = Findable, Accessible, Interoperable, Reusable. Zie
-    <https://en.wikipedia.org/wiki/FAIR_data>.
+    <https://en.wikipedia.org/wiki/FAIR_data> en <https://www.go-fair.org/fair-principles/>.
 
 In verschillende Vlaamse beleidsdocumenten wordt de nadruk gelegd op Open
 Science. Voorbeelden zijn:
