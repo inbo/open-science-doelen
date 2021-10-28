@@ -17,6 +17,17 @@ output:
     floatbarrier: subsection
     citation_package: none
     keep_tex: TRUE
+  bookdown::html_document2:
+    keep_md: TRUE
+    number_sections: yes
+    fig_caption: yes
+    df_print: paged
+    toc: TRUE
+    toc_float:
+      collapsed: FALSE
+      smooth_scroll: FALSE
+    includes:
+        in_header: header.html
 ---
 
 ```{r setup, include=FALSE}
@@ -24,8 +35,7 @@ options(stringsAsFactors = FALSE,
         knitr.table.format = "pandoc")
 uitvoer <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 knitr::opts_chunk$set(
-  echo = ifelse(is.null(uitvoer), TRUE,
-                !(uitvoer %in% c("latex", "docx"))),
+  echo = FALSE,
   dpi = 300
 )
 ```
